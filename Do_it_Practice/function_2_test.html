@@ -10,20 +10,18 @@ var color=["white","yellow","aqua","purple"];
   
 var i=0; //변수 i에 초깃값 지정
  
- 
- 
- 
- 
- 
- 
- 
- 
- 
+ function colorBg(){
+ 	i++;
+ 	if(i>=color.length) i=0;
+
+ 	var bodyTag=document.getElementsByTagName("body")[0];
+ 	bodyTag.sytle.backgroundColor=color[i];
+ }
  
 //]]>
 </script>
 </head>
 <body>
-  <button>배경색 바꾸기</button>
+  <button onclick="colorBg();">배경색 바꾸기</button>
 </body>
 </html>
