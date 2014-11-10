@@ -1,10 +1,94 @@
 <!DOCTYPE html>
 <html>
 <head lang="en">
-    <meta charset="UTF-8">
-    <title></title>
-</head>
-<body>
+    <script>
+        var c;
+        var ctx;
+        var time;
 
+        var cx = 100, cy =100;
+        /*        var dir = 1;
+         var s = 0;
+         var e = 180;
+         var cnt = 0;*/
+
+        var cur =0;
+        var arr = [{x:10, y:180}
+                ,{x:40, y:60}
+                ,{x:80, y:160}
+                ,{x:160, y:130}
+                ,{x:100, y:20}];
+
+
+        function init() {
+            c = document.getElementById("myCanvas");
+            ctx = c.getContext("2d");
+
+            time = Date.now();
+            setInterval(run,10);
+        }
+
+        function update(mod){
+
+            var vec = new Vector(arr[cur].x - cx, arr[cur].y - cy);
+            vec.normalize();
+
+            var d = Vector.distance(new Vector(arr[cur].x, arr[cur].y), new Vector(cx,cy));
+
+            cx += vec.x * d * mod;
+            cy += vec.y * d * mod;
+
+            if(d<30){
+                ctx.fillStyle ="f0000ff";
+                ctx.fillRect(arr[cur].x -2.5, arr[cur].y- 2.5, 5,5);
+            }
+            if(d<1){
+                cur = ++cur<arr.length ? cur : 0;
+
+            }
+        }
+
+        function render() {
+
+            ctx.clearRect(0,0, c.width, c.height);
+
+/*            for (var i=0; i<arr.length; i++){
+                ctx.fillStyle ="#0000ff";
+                ctx.fillRect(arr[i].x -2.5, arr[i].y -2.5, 5,5);
+            }*/
+
+            ctx.fillStyle = "ff0000";
+            ctx.fillRect(cx- 7.5, cy -7.5, 15,15);
+        }
+
+        function run()
+        {
+            update((Date.now() - time)/300);
+            render();
+            time = Date.now();
+        }
+
+        function Vector(x,y)
+        {
+            this.x=x;
+            this.y=y;
+            this.normalize =function()
+            {
+                var v = Math.sqrt(this.x * this.x + this.y);
+                this.x /= v;
+                this.y /= v;
+            }
+
+            Vector.distance = function(v1,v2)
+            {
+                return Math.sqrt((v2.x - v1.x)*(v2.x - v1.x)+(v2.y - v1.y)*(v2.y - v1.y));
+            }
+        }
+
+        //setInterval(run,10);
+    </script>
+</head>
+<body onload="init()">
+<canvas id="myCanvas" width="200" height="200"></canvas>
 </body>
 </html>
