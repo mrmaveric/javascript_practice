@@ -1,0 +1,76 @@
+<html>
+<head>
+    <script>
+        var c;
+        var ctx;
+
+        var cx = 200;
+        var cy= 200;
+        var r= 50;
+
+            function drawLine(){
+
+                ctx.moveTo(10,20);
+                ctx.lineTo(30, 100);
+                ctx.stroke();
+            }
+
+            function drawCircle(){
+                ctx.beginPath();
+                ctx.arc(95, 50, 40, 0, 2 * Math.PI);
+                ctx.stroke();
+            }
+
+            function drawText(){
+                ctx.font = "30px Arial";
+                //ctx.fillText("Hello World", 40, 300);
+                ctx.strokeText("Hello World", 40, 300);
+            }
+
+            function drawClock() {
+                ctx.font = "10px Arial";
+
+                var r = 20, cx=100, cy=100;
+                var x, y, radian;
+
+                for (var i=0; i<12; i++){
+                    radian = (-60 + i *30)/180 * Math.PI;
+                    x = (r+20) * Math.cos(radian) + cx -5;
+                    y = (r+20) * Math.sin(radian) + cy;
+
+                    ctx.fillText( String(i+1), x, y);
+
+                }
+            }
+
+            function drawNeedle() {
+
+                var x, y , radian;
+                radian = (-90,+ i * 30)/180 * Math.PI;
+                x = (r-10)* Math.cos(radian) + cx;
+                y = (r-10)*Math.sin(radian) + cy;
+
+                ctx.beginPath();
+                ctx.lineWidth="1";
+                ctx.moveTo(cx,cy);
+                ctx.lineTo(x,y);
+                ctx.stroke();
+
+            }
+
+            function init(){
+
+                c= document.getElementById("canvas");
+                ctx = c.getContext("2d");
+
+                drawClock();
+
+            }
+
+    </script>
+</head>
+
+<body onload="init()">
+    <canvas id="canvas" width="200" height="200"></canvas>
+</body>
+</html>

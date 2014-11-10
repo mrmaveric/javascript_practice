@@ -1,0 +1,111 @@
+<html>
+<head>
+    <script>
+        var c;
+        var ctx;
+
+        var cx = 100;
+        var cy= 100;
+        var r= 50;
+
+        var sec =0;
+
+            var img = new Image();
+
+        function drawCircle1(){
+            ctx.beginPath();
+            ctx.arc(95, 50, 40, 0, 2 * Math.PI);
+            ctx.stroke();
+
+            ctx.beginPath();
+            ctx.arc(cx, cy, 2, 0, 2 * Math.PI);
+            ctx.fill();
+        }
+
+        function drawLine(){
+
+            ctx.moveTo(100,20);
+            ctx.lineTo(30, 100);
+            ctx.stroke();
+        }
+
+        function drawCircle(){
+            ctx.beginPath();
+            ctx.arc(95, 50, 40, 0, 2 * Math.PI);
+            ctx.stroke();
+
+        }
+
+        function drawText(){
+            ctx.font = "10px Arial";
+            //ctx.fillText("Hello World", 40, 300);
+            ctx.strokeText("Hello World", 40, 300);
+        }
+
+        function drawText1(){
+
+            ctx.font = "10px Arial";
+
+            //var r = 20, cx=100, cy=100;
+            var x, y, radian;
+
+            for (var i=0; i<12; i++){
+                radian = (-60 + i *30)/180 * Math.PI;
+                x = (r+20) * Math.cos(radian) + cx -5;
+                y = (r+20) * Math.sin(radian) + cy;
+
+                ctx.fillText( String(i+1), x, y);
+
+            }
+        }
+
+        function drawNeedle(i, rr) {
+
+            var x, y , radian;
+            radian = (-90+ i * 30)/180 * Math.PI;
+            x = (rr)* Math.cos(radian) + cx;
+            y = (rr)* Math.sin(radian) + cy;
+
+            ctx.beginPath();
+            ctx.lineWidth="1";
+            ctx.moveTo(cx,cy);
+            ctx.lineTo(x,y);
+            ctx.stroke();
+        }
+
+        function loadHandler(){
+           /* if (loaded){
+                return;
+            }
+            loaded = true;*/
+            ctx.drawImage(img,50,100,100,100,5,5,100,100);
+        }
+
+        function drawImage(){
+            //var img = new img();
+            img.src = 'http://pds5.egloos.com/pds/200702/06/47/c0004247_10022268.jpg';
+            img.onload= loadHandler();
+            //
+
+        }
+        function init(){
+            sec = 60 * 60 * 54 + 60 * 50;
+            c= document.getElementById("myCanvas");
+            ctx = c.getContext("2d");
+
+            drawText1();
+            drawText();
+            drawNeedle(sec/5, r-10);
+            drawNeedle(sec/60/5, r-15);
+            drawNeedle(sec/60/60/5,r-30 );
+            drawImage();
+        }
+
+    </script>
+</head>
+
+<body onload="init()">
+<canvas id="myCanvas" width="200" height="200"></canvas>
+
+</body>
+</html>

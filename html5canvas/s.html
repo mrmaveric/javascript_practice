@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <script>
+        var c;
+        var ctx;
+        var time;
+
+        var cx = 100;
+        var dir = 1;
+        var s = 0;
+        var e = 180;
+        var cnt = 0;
+
+        function init() {
+            c = document.getElementById("myCanvas");
+            ctx = c.getContext("2d");
+
+            time = Date.now();
+            setInterval(run,10);
+        }
+
+        function update(mod){
+
+        }
+
+        function render() {
+
+            ctx.clearRect(0,0, c.width, c.height);
+
+            if(false){
+                if (cx > e || cx <s)
+                        dir *= -1;
+                cx +=dir;
+
+                ctx.fillStyle = "ff0000";
+                ctx.fillRect(cx, 100, 40, 40);
+            }
+            else {
+                var x = Math.sin((cnt++ * 6) /180 * Math.PI)*50 +cx;
+                        ctx.fillStyle ="ff0000";
+                        //ctx.fillRect(x, 100, 40, 40);
+                        ctx.font="20px Georgia";
+                        ctx.strokeText("Hello World!", x, 50);
+
+            }
+
+        }
+
+        function run() {
+            update((Date.now() - time) / 1000);
+            render();
+            time = Date.now();
+        }
+
+        //setInterval(run,10);
+    </script>
+</head>
+<body onload="init()">
+    <canvas id="myCanvas" width="200" height="200"></canvas>
+</body>
+</html>
