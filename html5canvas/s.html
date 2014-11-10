@@ -6,28 +6,101 @@
         var ctx;
         var time;
 
-        var cx = 100;
-        var dir = 1;
-        var s = 0;
-        var e = 180;
-        var cnt = 0;
+        var cx = 100, cy=100;
+       // var dir = 1;
+        //var s = 0;
+        //var e = 180;
+        //var cnt = 0;
+
+        var cur=0;
+        var cnt=0;
+
+        var arr = new Array();
+
+                var mySprite={
+                    x:50,
+                    y:50,
+                    width:20,
+                    height:20,
+                    speed:20,
+                    color:'#f00'
+                };
+
+                var item = {
+                    x: 0,
+                    y:0,
+                    width:10,
+                    height:10,
+                    point:1,
+                    color:'#fff'
+                };
 
 
         function init() {
+            for(var i = 0; i<50; i++){
+                var r = Math.random() * 100;
+                var radi = (Math.random()*360)/180*Math.PI;
+                var x = r * Math.cos(radi) + 100;
+                var y = r * Math.sin(radi) + 100;
+
+                arr.push({x:x, y:y});
+            }
+
             c = document.getElementById("myCanvas");
             ctx = c.getContext("2d");
+
+            item.x= Math.random() * c.width;
+            item.y= Math.random() * c.height;
 
             time = Date.now();
             setInterval(run,10);
         }
 
         function update(mod){
+            if (37 in keysDown){
+                mySprite.x -= mySprite.speed * mod;
 
+                if(mySprite.x <0)
+                    mySprite.x = 0;
+            }
+
+            if (38 in keysDown) {
+                mySprite.y -= mySprite.speed * mod;
+            }
+
+            if (39 in keysDown) {
+                mySprite.x += mySprite.speed * mod;
+                if(mySprite.x+mySprite.width> c.width)
+                    mySprite.x= c.width -mySprite.width;
+            }
+            if (40 in keysDown) {
+                mySprite.y += mySprite.speed * mod;
+            }
         }
         function render() {
 
-            ctx.clearRect(0,0, c.width, c.height);
+            if (mySprite.x <item.x + item.width
+                    && mySprite.x + mySprite.width > item.x
+                    && mySprite.y < item.y + item.height
+                    && mySprite.y + mySprite.height > item.y)
+                {
+                    cnt += item.point;
 
+                    item.x = Math.random() * c.width;
+                    item.y = Math.random() * c.height;
+                    item.point = Math.random()*1000%2;
+                }
+
+            ctx.fillStyle="#000";
+            ctx.clearRect(0,0, c.width, c.height);
+            ctx.fillStyle=mySprite.color;
+            ctx.fillRect(mySprite.x, mySprite.y, mySprite.width, mySprite.height);
+
+            ctx.fillStyle = item.color;
+            ctx.fillRect(item.x, item.y, item.width, item.height);
+
+            ctx.fillText("COUNT : "+ String(cnt),0,10);
+/*
             if(false){
                 if (cx > e || cx <s)
                     dir *= -1;
@@ -43,15 +116,37 @@
                 ctx.font="20px Georgia";
                 ctx.strokeText("Hello World!", x, 50);
 
-            }
+            }*/
 
         }
 
         function run() {
-            update((Date.now() - time) / 1000);
+            update((Date.now() - time) / 300);
             render();
             time = Date.now();
         }
+
+        function Vector(x,y) {
+            this.x = x;
+            this.y = y;
+            this.normalize = function () {
+                var v = Math.sqrt(this.x * this.x + this.y);
+                this.x /= v;
+                this.y /= v;
+            }
+
+            Vector.distance = function (v1, v2) {
+                return Math.sqrt((v2.x - v1.x) * (v2.x - v1.x) + (v2.y - v1.y) * (v2.y - v1.y));
+            }
+        }
+
+        var keysDown = {};
+        window.addEventListener('keydown', function(e){
+            keysDown[e.keyCode]=true;
+        });
+        window.addEventListener('keyup', function(e){
+           delete keysDown[e.keyCode];
+        });
 
 
         //setInterval(run,10);

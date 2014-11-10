@@ -4,13 +4,24 @@
         var c;
         var ctx;
 
-        var cx = 200;
-        var cy= 200;
-        var r= 50;
+        var r=60,cx=100, cy=100;
 
+        var sec = 0;
+            var img = new Image();
+
+        function drawCircle1() {
+            ctx.beginPath();
+            ctx.arc(cx, cy,r,0,2*Math.PI);
+            ctx.stroke();
+
+            ctx.beginPath();
+            ctx.arc(cx, cy,2,0,2*Math.PI);
+            ctx.fill();
+
+        }
         function drawLine(){
 
-            ctx.moveTo(10,20);
+            ctx.moveTo(100,20);
             ctx.lineTo(30, 100);
             ctx.stroke();
         }
@@ -22,15 +33,15 @@
         }
 
         function drawText(){
-            ctx.font = "30px Arial";
+            ctx.font = "10px Arial";
             //ctx.fillText("Hello World", 40, 300);
-            ctx.strokeText("Hello World", 40, 300);
+            ctx.strokeText("Hello World", 10, 50);
         }
 
-        function drawClock() {
+        function drawText1() {
             ctx.font = "10px Arial";
 
-            var r = 20, cx=100, cy=100;
+            //var r = 20, cx=100, cy=100;
             var x, y, radian;
 
             for (var i=0; i<12; i++){
@@ -43,12 +54,12 @@
             }
         }
 
-        function drawNeedle() {
+        function drawNeedle(i, rr) {
 
             var x, y , radian;
             radian = (-90,+ i * 30)/180 * Math.PI;
-            x = (r-10)* Math.cos(radian) + cx;
-            y = (r-10)*Math.sin(radian) + cy;
+            x = (rr)* Math.cos(radian) + cx;
+            y = (rr)*Math.sin(radian) + cy;
 
             ctx.beginPath();
             ctx.lineWidth="1";
@@ -58,12 +69,26 @@
 
         }
 
-        function init(){
+        function loadHandler(){
+            ctx.drawImage(img,50,100,100,100,40,0,100,100);
+        }
 
-            c= document.getElementById("canvas");
+        function drawImg(){
+            img.src ="http://pds5.egloos.com/pds/200702/06/47/c0004247_10022268.jpg";
+            img.onload=loadHandler();
+        }
+
+        function init(){
+            sec = 60*60*54+60*35;
+            c= document.getElementById("myCanvas");
             ctx = c.getContext("2d");
 
-            drawClock();
+            drawCircle1();
+            drawText1();
+            drawNeedle(sec/5, r-10);
+            drawNeedle(sec/60/5, r-15);
+            drawNeedle(sec/60/60/5,r-30 );
+            drawImg();
 
         }
 
@@ -71,6 +96,6 @@
 </head>
 
 <body onload="init()">
-<canvas id="canvas" width="200" height="200"></canvas>
+<canvas id="myCanvas" width="200" height="200"></canvas>
 </body>
 </html>

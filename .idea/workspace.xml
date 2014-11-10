@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d6eedbe0-df5f-407c-b487-ff6dab4e1b0b" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html5canvas/path.html" afterPath="$PROJECT_DIR$/html5canvas/path.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html5canvas/html5.html" afterPath="$PROJECT_DIR$/html5canvas/html5.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html5canvas/s.html" afterPath="$PROJECT_DIR$/html5canvas/s.html" />
     </list>
     <ignored path="JavaScript.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -35,21 +36,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="s.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="s.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/html5canvas/s.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-36.25" vertical-offset="0" max-vertical-offset="1020">
-              <caret line="58" column="7" selection-start-line="58" selection-start-column="7" selection-end-line="58" selection-end-column="7" />
+            <state vertical-scroll-proportion="0.30927834" vertical-offset="1695" max-vertical-offset="2445">
+              <caret line="123" column="46" selection-start-line="123" selection-start-column="46" selection-end-line="123" selection-end-column="46" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="path.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="path.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/html5canvas/path.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.48795182" vertical-offset="1242" max-vertical-offset="1755">
-              <caret line="99" column="45" selection-start-line="99" selection-start-column="45" selection-end-line="99" selection-end-column="45" />
+            <state vertical-scroll-proportion="-12.625" vertical-offset="1227" max-vertical-offset="1755">
+              <caret line="102" column="13" selection-start-line="88" selection-start-column="7" selection-end-line="102" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -78,8 +79,8 @@
       <file leaf-file-name="html5.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/html5canvas/html5.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.7083335" vertical-offset="634" max-vertical-offset="1215">
-              <caret line="53" column="30" selection-start-line="0" selection-start-column="0" selection-end-line="75" selection-end-column="7" />
+            <state vertical-scroll-proportion="-5.0" vertical-offset="0" max-vertical-offset="1590">
+              <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -98,8 +99,8 @@
       <file leaf-file-name="clock.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/html5canvas/clock.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-8.875" vertical-offset="1242" max-vertical-offset="1740">
-              <caret line="97" column="36" selection-start-line="97" selection-start-column="36" selection-end-line="97" selection-end-column="36" />
+            <state vertical-scroll-proportion="-1.375" vertical-offset="1242" max-vertical-offset="1740">
+              <caret line="85" column="84" selection-start-line="85" selection-start-column="23" selection-end-line="85" selection-end-column="84" />
               <folding />
             </state>
           </provider>
@@ -125,10 +126,10 @@
         <option value="$PROJECT_DIR$/Do_it_Practice/function_gallery_test.html" />
         <option value="$PROJECT_DIR$/html5canvas/la2" />
         <option value="$PROJECT_DIR$/html5canvas/la2.html" />
-        <option value="$PROJECT_DIR$/html5canvas/html5.html" />
         <option value="$PROJECT_DIR$/html5canvas/clock.html" />
-        <option value="$PROJECT_DIR$/html5canvas/s.html" />
         <option value="$PROJECT_DIR$/html5canvas/path.html" />
+        <option value="$PROJECT_DIR$/html5canvas/html5.html" />
+        <option value="$PROJECT_DIR$/html5canvas/s.html" />
       </list>
     </option>
   </component>
@@ -415,22 +416,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/html5canvas/clock.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.875" vertical-offset="1242" max-vertical-offset="1740">
-          <caret line="97" column="36" selection-start-line="97" selection-start-column="36" selection-end-line="97" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html5canvas/html5.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.7083335" vertical-offset="634" max-vertical-offset="1215">
-          <caret line="53" column="30" selection-start-line="0" selection-start-column="0" selection-end-line="75" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Do_it_Practice/function_9_test.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-4.375" vertical-offset="0" max-vertical-offset="375">
@@ -447,18 +432,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/html5canvas/s.html">
+    <entry file="file://$PROJECT_DIR$/html5canvas/clock.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-36.25" vertical-offset="0" max-vertical-offset="1020">
-          <caret line="58" column="7" selection-start-line="58" selection-start-column="7" selection-end-line="58" selection-end-column="7" />
+        <state vertical-scroll-proportion="-1.375" vertical-offset="1242" max-vertical-offset="1740">
+          <caret line="85" column="84" selection-start-line="85" selection-start-column="23" selection-end-line="85" selection-end-column="84" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html5canvas/html5.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.0" vertical-offset="0" max-vertical-offset="1590">
+          <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/html5canvas/path.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.48795182" vertical-offset="1242" max-vertical-offset="1755">
-          <caret line="99" column="45" selection-start-line="99" selection-start-column="45" selection-end-line="99" selection-end-column="45" />
+        <state vertical-scroll-proportion="-12.625" vertical-offset="1227" max-vertical-offset="1755">
+          <caret line="102" column="13" selection-start-line="88" selection-start-column="7" selection-end-line="102" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html5canvas/s.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.30927834" vertical-offset="1695" max-vertical-offset="2445">
+          <caret line="123" column="46" selection-start-line="123" selection-start-column="46" selection-end-line="123" selection-end-column="46" />
           <folding />
         </state>
       </provider>
