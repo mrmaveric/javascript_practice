@@ -1,0 +1,263 @@
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+    <title></title>
+
+    <script type="text/javascript">
+
+        var _canvas ;
+        var _ctx ;
+        var _time ;
+        var _cnt = 0;
+        var _cx =100 , cy = 100;
+        var _cur = 0;
+        var _arr = new Array();
+        var ECOUNT = 5;
+        var DEBUG = true;
+
+
+        var mySprite = {
+            x: 50,
+            y: 50,
+            width: 64,
+            height: 64,
+            speed: 50,
+            state:0,
+            color: '#f00'
+        };
+
+        var item = {
+            x: 0,
+            y: 0,
+            width: 10,
+            height: 10,
+            point: 1,
+            color: '#fff'
+        };
+
+        function Citem()
+        {
+            this.x = 0;
+            this.y = 0;
+            this.width = 10;
+            this.height = 10;
+            this.speed = 1;
+
+            //this.speed = 200;
+            //this.state  = 0;
+            this.color = '#fff';
+            this.point = 1;
+
+/*            this.toString = function()
+            {
+                return this.name;
+            };*/
+            this.init = function()
+            {
+                this.point = Math.round(Math.random() * 1000 ) % 5;
+                this.speed = Math.random() * 3;
+                this.x = Math.random() * _canvas.width;
+
+            };
+
+            this.k =0;
+
+            this.moveY = function()
+            {
+                this.y += 0.5 * this.speed;
+                this.x += Math.sin(this.k++)  ;
+
+
+                if(this.y > canvas.height)
+                {
+                    this.x = Math.random() * canvas.width;
+                    this.y = 0;
+                }
+            };
+            this.dist = function(x,y)
+            {
+                var a = Math.abs( x - this.x);
+                var b = Math.abs( y - this.y);
+
+                return Math.sqrt(a*a + b*b);
+            };
+        }
+        var arr = new Array();
+
+        Array.prototype.removeElement = function(index)
+        {
+            this.splice(index,1);
+            return this;
+        };
+
+        var pacmanTiles = {
+            loaded: false,
+            image: new Image(),
+            tileWidth: 64,
+            tileHeight: 64
+        };
+
+
+        function init()
+        {
+            _canvas = document.getElementById("canvas");
+            _ctx = _canvas.getContext("2d");
+
+            for(var i =0;i<5;i++)
+            {
+                var itm = new Citem();
+                itm.x = Math.random() * _canvas.width;
+                itm.y = Math.random() * _canvas.height;
+
+                arr.push(itm);
+            }
+
+            for(var i =0 ;i<50;i++)
+            {
+                var r = Math.random() * 100;
+                var radi = (Math.random() * 360) / 180 * Math.PI;
+                var x = r * Math.cos(radi) + 100;
+                var y = r * Math.sin(radi) + 100;
+
+                _arr.push( {x:x, y:y});
+            }
+
+            item.x = Math.random() * _canvas.width;
+            item.y = Math.random() * _canvas.height;
+
+            pacmanTiles.image.src = 'http://192.168.1.51/pacman.png';
+            pacmanTiles.image.onload = function() { 		pacmanTiles.loaded = true;
+            }
+
+            time = Date.now();
+            setInterval(run, 10);
+        }
+
+        function update(mod)
+        {
+            if (37 in keysDown) {
+                //left
+                mySprite.x -= mySprite.speed * mod;
+
+                if(mySprite.x < 0)
+                    mySprite.x = 0;
+
+                mySprite.state = 2;
+                //alert('left');
+            }
+            if (38 in keysDown) {
+                //up
+                mySprite.y -= mySprite.speed * mod;
+                mySprite.state = 3;
+            }
+            if (39 in keysDown) {
+                //right
+                mySprite.x += mySprite.speed * mod;
+                mySprite.state = 0;
+
+                if(mySprite.x + mySprite.width> _canvas.width)
+                    mySprite.x = _canvas.width - mySprite.width;
+            }
+            if (40 in keysDown) {
+                //down
+                mySprite.y += mySprite.speed * mod;
+                mySprite.state = 1;
+            }
+
+        }
+
+        function render()
+        {
+            if ( mySprite.x < item.x + item.width
+                    && mySprite.x + mySprite.width > item.x
+                    && mySprite.y < item.y + item.height
+                    && mySprite.y + mySprite.height > item.y )
+            {
+                _cnt += item.point;
+
+                item.x = Math.random() * _canvas.width;
+                item.y = Math.random() * _canvas.height;
+                item.point = Math.round(Math.random() * 1000 ) % 5;
+
+
+            }
+
+            _ctx.fillStyle = '#000';
+            _ctx.fillRect(0, 0, _canvas.width, _canvas.height);
+            _ctx.fillStyle = mySprite.color;
+            //ctx.fillRect(mySprite.x, mySprite.y, mySprite.width, mySprite.height);
+
+            _ctx.fillStyle = item.color;
+
+            for(var i=0;i<arr.length;i++)
+            {
+                if(arr[i].dist(mySprite.x, mySprite.y) < 32)
+                {
+                    arr.removeElement(i);
+                    _cnt+=arr[i].point;
+                }
+                else
+                {
+                    arr[i].moveY();
+
+                    if(DEBUG)
+                        _ctx.fillText( arr[i].speed , arr[i].x, arr[i].y);
+                    _ctx.fillRect(arr[i].x, arr[i].y, arr[i].width, arr[i].height);
+
+                }
+
+            }
+
+            //_ctx.fillRect(item.x, item.y, item.width, item.height);
+
+            _ctx.fillText("COUNT : " + String(_cnt) , 0,10);
+
+            if (pacmanTiles.loaded) {
+                _ctx.drawImage(
+                        pacmanTiles.image,
+                        mySprite.state * pacmanTiles.tileWidth,
+                        0,
+                        mySprite.width,
+                        mySprite.height,
+                        mySprite.x,
+                        mySprite.y,
+                        mySprite.width,
+                        mySprite.height
+                );
+            }
+
+        }
+        function run()
+        {
+            update((Date.now() - time) / 300);
+            render();
+
+            if(arr.length < ECOUNT)
+            {
+                var itm = new Citem();
+                itm.init();
+                arr.push(itm);
+            }
+
+
+            time =Date.now();
+        }
+
+
+        var keysDown = {};
+        window.addEventListener('keydown', function(e) {
+                    keysDown[e.keyCode] = true;
+                }
+        );
+        window.addEventListener('keyup', function(e) {
+            delete keysDown[e.keyCode];
+        });
+
+
+    </script>
+</head>
+<body onLoad="init()">
+<canvas id="canvas" width="300" height="300"></canvas>
+</body>
+</html>

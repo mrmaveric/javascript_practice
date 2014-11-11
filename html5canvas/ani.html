@@ -1,0 +1,157 @@
+
+<html>
+<head>
+    <title>Animation Demo</title>
+    <style type="text/css">
+        body {margin: 0}
+    </style>
+</head>
+<body>
+<canvas id="canvas" width=500 height=500></canvas>
+<script>
+    var canvas = document.getElementById('canvas'),
+            ctx = canvas.getContext('2d');
+
+    canvas.width = document.documentElement.clientWidth;
+    canvas.height = document.documentElement.clientHeight;
+
+    function imageLoaded() {
+        game.imagesLoaded ++;
+    }
+
+    function Tileset(image, tileWidth, tileHeight) {
+        this.image = new Image();
+        game.images ++;
+        this.image.onload = imageLoaded;
+        this.image.src = image;
+        this.tileWidth = tileWidth;
+        this.tileHeight = tileHeight;
+    }
+
+    function Animation(tileset, frames, frameDuration) {
+        this.tileset = tileset;
+        this.frames = frames;
+        this.currentFrame = 0;
+        this.frameTimer = Date.now();
+        this.frameDuration = frameDuration;
+
+        this.update = function()
+        {
+            if (Date.now() - this.frameTimer > this.frameDuration)
+            {
+                if (this.currentFrame < this.frames.length - 1) this.currentFrame ++;
+                else
+                    this.currentFrame = 0;
+
+                this.frameTimer = Date.now();
+            }
+        };
+    }
+
+    function Sprite(stateAnimations, startingState, x, y, width, height, speed) {
+        this.stateAnimations = stateAnimations;
+        this.currentState = startingState;
+        this.x = x;
+        this.y = y;
+        this.width = width;
+        this.height = height;
+        this.speed = speed;
+
+        this.moveX = function(mod)
+        {
+            this.x += this.speed*mod;
+        }
+    }
+
+    function drawSprite(sprite) {
+
+        var arr = sprite.stateAnimations[sprite.currentState].frames[sprite.stateAnimations[sprite.currentState].currentFrame].split(',');
+
+        ctx.drawImage(
+                sprite.stateAnimations[sprite.currentState].tileset.image,
+                arr[0] * sprite.stateAnimations[sprite.currentState].tileset.tileWidth,
+                arr[1] * sprite.stateAnimations[sprite.currentState].tileset.tileHeight,
+                sprite.stateAnimations[sprite.currentState].tileset.tileWidth,
+                sprite.stateAnimations[sprite.currentState].tileset.tileHeight,
+                Math.round(sprite.x),
+                Math.round(sprite.y),
+                sprite.width,
+                sprite.height
+        );
+    }
+
+    function updateAnimation(anim) {
+        if (Date.now() - anim.frameTimer > anim.frameDuration) {
+            if (anim.currentFrame < anim.frames.length - 1) anim.currentFrame ++;
+            else anim.currentFrame = 0;
+            anim.frameTimer = Date.now();
+        }
+    }
+
+    var game = {
+        images: 0,
+        imagesLoaded: 0,
+        backgroundColor: '#fff'
+    }
+
+    var spriteTiles = new Tileset('sprite.png', 44, 108);
+    var spriteLeftAnim = new Animation(spriteTiles, ['3,0', '2,0', '1,0', '0,0'], 200);
+    var spriteRightAnim = new Animation(spriteTiles, ['0,1', '1,1', '2,1', '3,1'], 200);
+    var player = new Sprite({'left': spriteLeftAnim, 'right': spriteRightAnim}, 'right', canvas.width / 2, canvas.height / 2, 44, 108, 100);
+
+    var keysDown = {};
+    window.addEventListener('keydown', function(e) {
+        keysDown[e.keyCode] = true;
+    });
+    window.addEventListener('keyup', function(e) {
+        delete keysDown[e.keyCode];
+    });
+
+    function update(mod) {
+        if (37 in keysDown) {
+            player.currentState = 'left';
+            player.moveX(-mod);
+            //player.x -= player.speed * mod;
+            //updateAnimation(player.stateAnimations[player.currentState]);
+
+            spriteLeftAnim.update();
+        }
+        else if (39 in keysDown) {
+            player.currentState = 'right';
+            player.moveX(mod);
+
+            //player.x += player.speed * mod;
+            //updateAnimation(player.stateAnimations[player.currentState]);
+
+            spriteRightAnim.update();
+        }
+    }
+
+    function render() {
+        ctx.fillStyle = game.backgroundColor;
+        ctx.fillRect(0, 0, canvas.width, canvas.height);
+        drawSprite(player);
+        ctx.fillStyle = '#000';
+        ctx.font = '15pt Arial';
+        ctx.textBaseline = 'top';
+        ctx.fillText('Arrow keys to move left and right', 15, 15);
+
+        //var x = new game();
+        //x.k();
+    }
+
+    function main() {
+        update((Date.now() - then) / 1000);
+
+        if (game.images == game.imagesLoaded) {
+            render();
+        }
+        then = Date.now();
+    }
+
+    var then = Date.now();
+    setInterval(main, 10);
+</script>
+</body>
+
+</html>
