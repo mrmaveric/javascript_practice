@@ -31,13 +31,13 @@ function init()
     cannon.y=canvas.height/2;
 }
 
-var keysDown = {};
-window.addEventListener('keydown', function(e) {
-    keysDown[e.keyCode] = true;
-});
-window.addEventListener('keyup', function(e) {
-    delete keysDown[e.keyCode];
-});
+    var keysDown = {};
+    window.addEventListener('keydown', function(e) {
+        keysDown[e.keyCode] = true;
+    });
+    window.addEventListener('keyup', function(e) {
+        delete keysDown[e.keyCode];
+    });
 
 
 function regEvent()
@@ -93,7 +93,7 @@ function Cobject()
 function Ccannon()
 {
     this.arr = new Array();
-    this.x = 200;
+    this.x = 20;
     this.y = 300;
     this.angle ;
     this.cnt = 0;
@@ -126,9 +126,9 @@ function Ccannon()
     {
         var img = new Image();
         img.src = 'T1N.png';
-        ctx.drawImage(this.image,
-                150,  // X
-                170,  // Y
+        ctx.drawImage(img ,
+                this.x - 100,  // X
+                this.y - 80,  // Y
                 216,
                 151
         );
@@ -142,6 +142,7 @@ function Ccannon()
 
         ctx.moveTo(0, 0);
         ctx.beginPath();
+        ctx.fillStyle = '#f00';
         ctx.arc(0, 0, 15, 0, Math.PI * 2, true);
         ctx.fill();
         ctx.closePath();
@@ -314,16 +315,13 @@ function run() {
     update((Date.now() - time) / 1000);
     render();
 
-    frameRate =  Math.round((1000) / (Date.now() - time));
+        frameRate =  Math.round((1000) / (Date.now() - time));
 
-
-    time = Date.now();
+        time = Date.now();
 }
 
 var time = Date.now();
 setInterval(run, 10);
-
-
 
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
@@ -393,8 +391,8 @@ var vector2d = function(x, y){
         rotate : function(){
             var vx = vex.vx,
                     vy = vec.vy.
-                            cosVal = Math.cos(angle);
-            sinVal = Math.sin(angle);
+                      cosVal = Math.cos(angle);
+                      sinVal = Math.sin(angle);
             vec.vx = vx * cosVal - vy * sinVal;
             vec.vy = vx * sinVal - vy * cosVal;
         },
