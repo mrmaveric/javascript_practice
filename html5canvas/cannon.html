@@ -5,23 +5,32 @@
 <canvas id="canvas" width= 500 height=500></canvas>
 <script>
 
+var isDebug = true;
 var canvas , ctx;
+
 var ball ;
 var cannon;
 var enemy ;
 
-var timeCnt = 0;
-var frameCnt = 0;
 var frameRate = 0;
 
 var eArr = [] ;
 var eLimit = 7;
+var keysDown = {};
+
+var eBoundary = 220;
+
+var time = Date.now();
+var img = new Image();
+img.src = 'background.jpg';
+
 
 function init()
 {
     canvas = document.getElementById('canvas');
     ctx = canvas.getContext('2d');
 
+    eBoundary = canvas.width/2 * 1;
     regEvent();
 
     cannon = new Ccannon();
@@ -31,13 +40,8 @@ function init()
     cannon.y=canvas.height/2;
 }
 
-    var keysDown = {};
-    window.addEventListener('keydown', function(e) {
-        keysDown[e.keyCode] = true;
-    });
-    window.addEventListener('keyup', function(e) {
-        delete keysDown[e.keyCode];
-    });
+/*    var keysDown = {};
+    */
 
 
 function regEvent()
@@ -46,6 +50,13 @@ function regEvent()
     canvas.addEventListener('mousemove', cvmousemove, false);
     canvas.addEventListener('mouseup', cvmouseup, false);
     canvas.addEventListener('mouseleave', cvmouseleave, false);
+
+    window.addEventListener('keydown', function(e) {
+        keysDown[e.keyCode] = true;
+    });
+    window.addEventListener('keyup', function(e) {
+        delete keysDown[e.keyCode];
+    });
 }
 function cvmousedown(e)
 {
@@ -151,6 +162,18 @@ function Ccannon()
         ctx.font = '20px Arial';
         ctx.fillText("Point : " + this.cnt, 20, 30);
 
+        if(isDebug)
+        {
+            ctx.save();
+            ctx.beginPath();
+            ctx.strokeStyle = '#0ff';
+            ctx.arc(canvas.width/2 , canvas.height/2 , eBoundary , 0 , 2 * Math.PI , true);
+            ctx.stroke();
+            ctx.closePath();
+            ctx.restore();
+        }
+
+
         for(var i=0;i<this.arr.length;i++)
         {
             if(this.arr[i].remove)
@@ -171,6 +194,7 @@ function Cball()
     {
         this.g += 0.03;
         this.g = 0;
+
         this.x += this.vec.x;
         this.y += this.vec.y + this.g;
     }
@@ -213,13 +237,13 @@ Cball.prototype = new Cobject();
 function Citem()
 {
 
-    this.x = canvas.width;
-    this.y = Math.random() * canvas.height;
+    //this.x = canvas.width;
+    //this.y = Math.random() * canvas.height;
 
 
     this.moveX = function()
     {
-        this.x -= 0.1;
+        this.x -= 0.2;
 
         //this.x += new Vector(cannon.x - this.x  , cannon.y - this.y).unit() * 0.5;
 
@@ -236,9 +260,16 @@ function Citem()
     };
     this.refresh = function()
     {
-        this.x = canvas.width;
-        this.y = Math.random() * canvas.height;
+        //this.x = canvas.width;
+        //this.y = Math.random() * canvas.height;
+
+        var radi = (Math.random()*360) / 180 * Math.PI;
+        this.x = eBoundary * Math.cos(radi) + canvas.width/2;
+        this.y = eBoundary * Math.sin(radi) + canvas.height/2;
+
     }
+    this.refresh();
+
     this.dist = function(x,y)
     {
         var a = Math.abs( x - this.x);
@@ -282,8 +313,8 @@ function update(mod) {
 
     }
 }
-var img = new Image();
-    img.src = 'background.jpg';
+/*var img = new Image();
+    img.src = 'background.jpg';*/
 function render() {
 
     //var img = new Image();
@@ -306,7 +337,7 @@ function render() {
     }
 
     ctx.font = '20px Arial';
-    ctx.fillText("fraemRate : " + frameRate, 180, 30);
+    ctx.fillText("frameRate : " + frameRate, 180, 30);
 
 
 }
@@ -320,7 +351,7 @@ function run() {
         time = Date.now();
 }
 
-var time = Date.now();
+//var time = Date.now();
 setInterval(run, 10);
 
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
