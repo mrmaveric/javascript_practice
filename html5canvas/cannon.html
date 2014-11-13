@@ -138,7 +138,7 @@ function Ccannon()
         ctx.translate(this.x, this.y);
 
         ctx.rotate(this.angle);
-        ctx.strokeRect(0, -5, 50, 10);
+        ctx.strokeRect(0, -5, 70, 10);
 
         ctx.moveTo(0, 0);
         ctx.beginPath();
@@ -282,13 +282,15 @@ function update(mod) {
 
     }
 }
+var img = new Image();
+    img.src = 'background.jpg';
 function render() {
 
-    var img = new Image();
-    img.src = 'img_the_scream.jpg';
+    //var img = new Image();
+    //img.src = 'img_the_scream.jpg';
 
     ctx.clearRect(0,0,canvas.width,canvas.height);
-    ctx.drawImage(img, 0,0);
+    ctx.drawImage(img, 0,0, canvas.width, canvas.height);
 
     cannon.draw();
     //enemy.draw();
@@ -310,8 +312,6 @@ function render() {
 }
 function run() {
 
-
-
     update((Date.now() - time) / 1000);
     render();
 
@@ -331,6 +331,7 @@ Array.prototype.removeElement = function(index)
     return this;
 };
 
+
 var vector2d = function(x, y){
     var vec = {
         vx : x,
@@ -338,7 +339,6 @@ var vector2d = function(x, y){
 
         //scale() ¸Þ¼Òµå¸¦ »ç¿ëÇÏ¸é º¤ÅÍÀÇ Å©±â¸¦
         //ÁÙÀÌ°Å³ª ´Ã¸± ¼ö ÀÖ´Ù.
-
         scale : function(scale){
             vec.vx *= scale;
             vec.vy *= scale;
@@ -391,8 +391,8 @@ var vector2d = function(x, y){
         rotate : function(){
             var vx = vex.vx,
                     vy = vec.vy.
-                      cosVal = Math.cos(angle);
-                      sinVal = Math.sin(angle);
+                            cosVal = Math.cos(angle);
+            sinVal = Math.sin(angle);
             vec.vx = vx * cosVal - vy * sinVal;
             vec.vy = vx * sinVal - vy * cosVal;
         },
@@ -549,6 +549,7 @@ Vector.prototype = {
  Vector.fromArray = function(a) {
  return new Vector(a[0], a[1], a[2]);
  };
+
  */
 </script>
 </body>
