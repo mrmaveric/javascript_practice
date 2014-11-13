@@ -186,17 +186,51 @@ function Ccannon()
 }
 function Cball()
 {
+
+    var distArr = [];
+    var f = false;
+
     this.setDir = function(vec)
     {
         this.vec = vec;
+
+        if(Math.random() < 0.2)
+        {
+            f = true;
+        }
+
+        for(var i=0;i<eArr.length;i++)
+        {
+            distArr.push( {idx: i , dist: eArr[i].dist(this.x,this.y)} );
+        }
+        distArr.sort(function(a, b){return a.dist-b.dist});
+
+        for(var i=0;i<distArr.length;i++)
+            console.log(distArr[i].idx + "/" + distArr[i].dist);
+
     }
+
+
+
     this.move = function()
     {
         this.g += 0.03;
         this.g = 0;
 
-        this.x += this.vec.x;
-        this.y += this.vec.y + this.g;
+        if(!f)
+        {
+            this.x += this.vec.x;
+            this.y += this.vec.y + this.g;
+        }
+        else
+        {
+            var v = new Vector(eArr[distArr[0].idx].x - this.x ,  eArr[distArr[0].idx].y - this.y, 0);
+            v = v.unit().multiply(0.8);
+
+            this.x += v.x;
+            this.y += v.y + this.g;
+        }
+
     }
 
     this.draw = function()
@@ -208,11 +242,17 @@ function Cball()
             //if(enemy.dist(this.x,this.y) < this.width)
             if(eArr[i].dist(this.x,this.y) < this.width)
             {
-                this.remove = true;
-                cannon.cnt++;
-                //enemy.refresh();
-                eArr[i].refresh();
+                if(Math.random() < 1)
+                {
+                    this.remove = true;
+                    cannon.cnt++;
+                    //enemy.refresh();
+                    eArr[i].refresh();
+                }
+                else
+                    this.remove = true;
             }
+
         }
 
         if(this.y < canvas.height && this.x < canvas.width)
@@ -243,16 +283,17 @@ function Citem()
 
     this.moveX = function()
     {
-        this.x -= 0.2;
+        this.x += new Vector(cannon.x - this.x , cannon.y - this.y , 0).unit().multiply(this.speed).x;
+        this.y += new Vector(cannon.x - this.x , cannon.y - this.y , 0).unit().multiply(this.speed).y;
 
-        //this.x += new Vector(cannon.x - this.x  , cannon.y - this.y).unit() * 0.5;
-
-        if(this.x <0)
-        // ||
-                //this.y <0 ||
-                //this.x > canvas.width ||
-                //this.y > canvas.height		)
+        if(this.dist(cannon.x , cannon.y) < 70)
             this.refresh();
+
+        //this.x -= 0.2;
+
+        //if(this.x <0)
+        //	this.refresh();
+
 
     }
     this.moveY = function()
@@ -267,7 +308,9 @@ function Citem()
         this.x = eBoundary * Math.cos(radi) + canvas.width/2;
         this.y = eBoundary * Math.sin(radi) + canvas.height/2;
 
+        this.speed = 0.1;
     }
+
     this.refresh();
 
     this.dist = function(x,y)
@@ -276,7 +319,6 @@ function Citem()
         var b = Math.abs( y - this.y);
 
         return Math.sqrt(a*a + b*b);
-
     };
     this.draw = function()
     {
@@ -299,6 +341,7 @@ Citem.prototype = new Cobject();
 function update(mod) {
     if (37 in keysDown)
     {
+        cannon.x -= 1;
     }
     if (38 in keysDown)
     {
@@ -306,6 +349,7 @@ function update(mod) {
     }
     if (39 in keysDown)
     {
+        cannon.x += 1;
     }
     if (40 in keysDown)
     {
