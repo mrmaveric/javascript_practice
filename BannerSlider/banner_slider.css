@@ -36,7 +36,7 @@ a, a:visited{
     border:0px solid #ff0000;
 }
 
-.banner_slider .banner_container #banner_content{
+.banner_menu .banner_slider .banner_container #banner_content{
     position:absolute;
     /* 980*4 */
     width: 3920px;
