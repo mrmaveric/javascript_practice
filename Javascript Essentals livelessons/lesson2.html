@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>My First JavaScript</title>
+    <style>
+        body {
+            font-family: sans-serif;
+        }
+
+        h1{
+            font-size: xx-large;
+            font-weight: bolder;
+            background-color:#000000 ;
+            color: #ffffff;
+            text-align: center;
+            width: 100%;
+        }
+    </style>
+    <script>
+        (function(){
+            function pageReady(){
+                btn.addEventListener("click", handleClick);
+            }
+
+            function handleClick(){
+                var name = document.getElementById("name").value;
+                var h1 = document.getElementById("headline");
+                h1.innerHTML = "Hello World"
+            }
+
+            window.addEventListener("load", pageReady);
+        })();
+    </script>
+</head>
+<body>
+    <h1 id ="headline">Hello World</h1>
+    <form>
+        Please Enter Your Name:
+        <input type="text" id="name" />
+        <input type="button" id="btn" value="click me" />
+    </form>
+
+</body>
+</html>
