@@ -1,0 +1,25 @@
+<h1 id = "clickMe">Click Me</h1>
+<h2 onclick="sayHi();">Click Me Too!</h2>
+<script>
+    sayHi();
+
+    function sayHi(){
+        console.log('Hi!');
+        console.log(this);
+
+    }
+//inside an object's method
+    var fido = {
+        name: 'Fido',
+        bark: function(){
+            console.log('WOOF! My name is '+ this.name);
+            console.log(this);
+        }
+    };
+
+    fido.bark();
+//event handlers
+    var elem = document.getElementById('clickMe');
+    elem.addEventListener('click', sayHi);
+
+</script>

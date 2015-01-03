@@ -1,0 +1,22 @@
+<script>
+
+
+    var baz = function(){
+
+    };
+
+//    var obj = {
+//        bing: function(){}
+//    };
+
+    function foo(){
+        inner1(); //no problems here
+        function inner1() {
+
+        }
+        inner2(); //Error! inner2 is not defined
+        var inner2 = function(){
+
+        };
+    }
+</script>

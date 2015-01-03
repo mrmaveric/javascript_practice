@@ -1,0 +1,40 @@
+<script>
+
+//    function foo() {
+//        var bar = 'baz';
+//    }
+    function sayHi(){
+        var name = 'Ben';
+        function getName(){
+            return name;
+        }
+        console.log('Hi ' + getName());
+    }
+
+    sayHi();
+
+    function dogFactory(dogName){
+        var isHappy = true;
+        var appendix = {};
+        function dogBark(){
+            if(isHappy){
+                console.log('WOOF!');
+            }else {
+                console.log('woof...');
+            }
+
+        }
+        function dogEat(food){
+            if(food === 'grass'){
+                isHappy = false;
+            }
+        }
+        return{
+            name: dogName,
+            bark: dogBark,
+            eat: dogEat
+        };
+    }
+
+    var fido = dogFactory('Fido');
+</script>
