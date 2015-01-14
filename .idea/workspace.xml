@@ -2,113 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d6eedbe0-df5f-407c-b487-ff6dab4e1b0b" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/BannerSlider/banner_slider.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/BannerSlider/banner_slider.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/BannerSlider/images/banner_dot.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/BannerSlider/images/img1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/BannerSlider/images/img2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/BannerSlider/images/img3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/BannerSlider/images/img4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/BannerSlider/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/BannerSlider/libs/jquery-1.7.1.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/BannerSlider/libs/jquery.easing.1.3.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Do_it_Practice/array_ob4_test.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Do_it_Practice/dom_ob6_test.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Do_it_Practice/estmate_test.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Do_it_Practice/event_last_test.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Do_it_Practice/function_10_test.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Do_it_Practice/function_1_test.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Do_it_Practice/function_2_test.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Do_it_Practice/function_3_test.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Do_it_Practice/function_4_test.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Do_it_Practice/function_5_test.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Do_it_Practice/function_6_test.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Do_it_Practice/function_7_test.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Do_it_Practice/function_8_test.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Do_it_Practice/function_9_test.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Do_it_Practice/function_calc.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Do_it_Practice/function_gallery_test.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Do_it_Practice/images/btn_out.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Do_it_Practice/images/btn_over.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Do_it_Practice/images/c1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Do_it_Practice/images/c2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Do_it_Practice/images/c3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Do_it_Practice/images/c4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Do_it_Practice/images/car1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Do_it_Practice/images/car2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Do_it_Practice/images/car3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Do_it_Practice/images/car4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Do_it_Practice/images/math_img_1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Do_it_Practice/images/math_img_2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Do_it_Practice/images/math_img_3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Do_it_Practice/images/window_object_1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Do_it_Practice/jquery_event_12_test.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Do_it_Practice/jquery_event_2_test.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Do_it_Practice/jquery_event_3_test.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Do_it_Practice/jquery_event_7_test.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Do_it_Practice/jquery_event_8_test.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Do_it_Practice/jquery_event_index_test.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Do_it_Practice/js/jquery-1.10.2.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Do_it_Practice/string_ob1_test.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/smellslikebakin/contact.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/smellslikebakin/contact.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/smellslikebakin/css/grid.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/smellslikebakin/css/img/bg-texture.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/smellslikebakin/css/img/featured-cupcake.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/smellslikebakin/css/img/texture.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/smellslikebakin/css/normalize.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/smellslikebakin/css/style.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/smellslikebakin/external/imgs/avocado-extralarge.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/smellslikebakin/external/imgs/avocado-large.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/smellslikebakin/external/imgs/avocado-medium.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/smellslikebakin/external/imgs/avocado-small.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/smellslikebakin/external/imgs/bacon-extralarge.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/smellslikebakin/external/imgs/bacon-large.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/smellslikebakin/external/imgs/bacon-medium.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/smellslikebakin/external/imgs/bacon-small.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/smellslikebakin/external/imgs/lime-extralarge.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/smellslikebakin/external/imgs/lime-large.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/smellslikebakin/external/imgs/lime-medium.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/smellslikebakin/external/imgs/lime-small.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/smellslikebakin/external/imgs/psd/extralarge.psd" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/smellslikebakin/external/imgs/psd/large.psd" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/smellslikebakin/external/imgs/psd/medium.psd" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/smellslikebakin/external/imgs/psd/small.psd" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/smellslikebakin/external/imgs/subpage/avocado-large.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/smellslikebakin/external/imgs/subpage/avocado-medium.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/smellslikebakin/external/imgs/subpage/avocado-small.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/smellslikebakin/external/imgs/subpage/bacon-large.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/smellslikebakin/external/imgs/subpage/bacon-medium.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/smellslikebakin/external/imgs/subpage/bacon-small.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/smellslikebakin/external/imgs/subpage/lime-large.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/smellslikebakin/external/imgs/subpage/lime-medium.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/smellslikebakin/external/imgs/subpage/lime-small.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/smellslikebakin/external/matchmedia.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/smellslikebakin/img/baby-cupcake.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/smellslikebakin/img/facebook.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/smellslikebakin/img/facebook.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/smellslikebakin/img/featured-cupcake.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/smellslikebakin/img/left-arrow.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/smellslikebakin/img/logo.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/smellslikebakin/img/logo.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/smellslikebakin/img/love-at-first-bite.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/smellslikebakin/img/love-at-first-bite.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/smellslikebakin/img/new-cupcake-bacon.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/smellslikebakin/img/new-cupcake-caramel.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/smellslikebakin/img/new-cupcake-jalapeno.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/smellslikebakin/img/popular-cupcake.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/smellslikebakin/img/right-arrow.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/smellslikebakin/img/twitter.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/smellslikebakin/img/twitter.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/smellslikebakin/img/you-bake-me-blush.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/smellslikebakin/img/you-bake-me-blush.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/smellslikebakin/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/smellslikebakin/jquery.fittext.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/smellslikebakin/jquery.fitvids.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/smellslikebakin/js/jquery.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/smellslikebakin/locations.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/smellslikebakin/picturefill.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/smellslikebakin/pricing.html" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="JavaScript.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -130,78 +24,7 @@
     <favorites_list name="JavaScript" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="call_apply_bind.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Express yourself with JS/call_apply_bind.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="390" max-vertical-offset="510">
-              <caret line="26" column="16" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="16" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="hoisting_functions.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Express yourself with JS/hoisting_functions.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="300" max-vertical-offset="405">
-              <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="life.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Express yourself with JS/life.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="420">
-              <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="clousures.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Express yourself with JS/clousures.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.0" vertical-offset="6" max-vertical-offset="675">
-              <caret line="10" column="39" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="39" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jQueryProjectPractice1/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-15.0" vertical-offset="0" max-vertical-offset="8175">
-              <caret line="24" column="7" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="7" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="common.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jQueryProjectPractice1/js/common.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="165" max-vertical-offset="1875">
-              <caret line="68" column="0" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.js" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/jQueryProjectPractice1/js/main.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.30597016" vertical-offset="1655" max-vertical-offset="2325">
-              <caret line="124" column="5" selection-start-line="124" selection-start-column="5" selection-end-line="124" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -214,21 +37,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/Do_it_Practice/function_7_test.html" />
-        <option value="$PROJECT_DIR$/Do_it_Practice/function_6_test.html" />
-        <option value="$PROJECT_DIR$/Do_it_Practice/function_8_test.html" />
-        <option value="$PROJECT_DIR$/Do_it_Practice/function_5_test.html" />
-        <option value="$PROJECT_DIR$/html5canvas/la2" />
-        <option value="$PROJECT_DIR$/html5canvas/la2.html" />
-        <option value="$PROJECT_DIR$/html5canvas/clock.html" />
-        <option value="$PROJECT_DIR$/html5canvas/path.html" />
-        <option value="$PROJECT_DIR$/html5canvas/html5.html" />
-        <option value="$PROJECT_DIR$/html5canvas/s.html" />
-        <option value="$USER_HOME$/Downloads/javascript jquery file(1)/√π¬∞∏∂¥Á º“Ω∫/4¿Â/array_ob4_test.html" />
-        <option value="$PROJECT_DIR$/Do_it_Practice/string_ob1_test.html" />
-        <option value="$PROJECT_DIR$/Do_it_Practice/dom_ob6_test.html" />
-        <option value="$PROJECT_DIR$/Do_it_Practice/estmate_test.html" />
-        <option value="$PROJECT_DIR$/Do_it_Practice/function_gallery_test.html" />
         <option value="$PROJECT_DIR$/Do_it_Practice/jquery_event_2_test.html" />
         <option value="$USER_HOME$/Downloads/MM_JAVASCRIPT/chapter06/6.2.html" />
         <option value="$PROJECT_DIR$/Missing manual/event_6.1.html" />
@@ -263,6 +71,23 @@
         <option value="$PROJECT_DIR$/Express yourself with JS/hoisting_functions.html" />
         <option value="$PROJECT_DIR$/Express yourself with JS/life.html" />
         <option value="$PROJECT_DIR$/Express yourself with JS/clousures.html" />
+        <option value="$PROJECT_DIR$/d3_practice/simple_bar1/main.css" />
+        <option value="$PROJECT_DIR$/d3_practice/simple_bar1/main.js" />
+        <option value="$PROJECT_DIR$/d3_practice/simple_bar1/index.html" />
+        <option value="$PROJECT_DIR$/jquerytabcontrol/index.html" />
+        <option value="$PROJECT_DIR$/jQueryProgramming/2.2/exercise.html" />
+        <option value="$PROJECT_DIR$/jQueryProgramming/2.2/main.js" />
+        <option value="$PROJECT_DIR$/jQueryProgramming/3.2/main.js" />
+        <option value="$PROJECT_DIR$/jQueryProgramming/3.2/exercise.html" />
+        <option value="$PROJECT_DIR$/jQueryFormField_Plugin/js/index.html" />
+        <option value="$PROJECT_DIR$/jQueryFormField_Plugin/css/style.css" />
+        <option value="$PROJECT_DIR$/jQueryFormField_Plugin/index.html" />
+        <option value="$PROJECT_DIR$/jQueryFormField_Plugin/js/formfieldhighlighter_plugin.js" />
+        <option value="$PROJECT_DIR$/jQuery_Plugin_Practice/formhighlighter.html" />
+        <option value="$PROJECT_DIR$/jQuery_Plugin_Practice/chaining_commands.html" />
+        <option value="$PROJECT_DIR$/jQuery_Plugin_Practice/css/menu.css" />
+        <option value="$PROJECT_DIR$/jQuery_Plugin_Practice/menuplugin.html" />
+        <option value="$PROJECT_DIR$/jQuery_Plugin_Practice/js/jquery.menu.js" />
       </list>
     </option>
   </component>
@@ -317,6 +142,88 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JavaScript" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JavaScript" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jQuery_Plugin_Practice" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JavaScript" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JavaScript" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jQuery_Plugin_Practice" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JavaScript" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JavaScript" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jQuery_Plugin_Practice" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JavaScript" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JavaScript" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="d3_practice" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="simple_bar1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JavaScript" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JavaScript" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AngularJS_Practice" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -328,22 +235,23 @@
     <property name="DefaultHtmlFileTemplate" value="Html5" />
     <property name="restartRequiresConfirmation" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/Missing manual" />
-    <property name="options.lastSelected" value="vcs.Git" />
-    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="options.lastSelected" value="preferences.sourceCode.General" />
+    <property name="options.splitter.main.proportions" value="0.18943839" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/jQueryFormField_Plugin/js" />
       <recent name="$PROJECT_DIR$/Missing manual" />
       <recent name="$PROJECT_DIR$/Do_it_Practice" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/jQueryFormField_Plugin" />
+      <recent name="$PROJECT_DIR$/jQueryProgramming" />
       <recent name="$PROJECT_DIR$/BannerSlider/libs" />
       <recent name="$PROJECT_DIR$/BannerSlider/images" />
       <recent name="$PROJECT_DIR$/jQueryProjectPractice1/images" />
-      <recent name="$PROJECT_DIR$/jQueryProjectPractice1/css" />
-      <recent name="$PROJECT_DIR$/jQueryProjectPractice1/js" />
     </key>
   </component>
   <component name="RunManager" selected="JavaScript Debug.life.html">
@@ -372,14 +280,6 @@
       <ConfigurationWrapper RunnerId="JavascriptDebugRunner" />
       <method />
     </configuration>
-    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
-      <option name="VMOptions" />
-      <option name="arguments" />
-      <option name="filePath" />
-      <option name="scope" value="ALL" />
-      <option name="testName" />
-      <method />
-    </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
       <option name="VMOptions" />
       <option name="arguments" />
@@ -390,21 +290,29 @@
       <option name="showConsoleOnStdOut" value="false" />
       <method />
     </configuration>
-    <configuration default="true" type="JSTestDriver:ConfigurationType" factoryName="JsTestDriver">
-      <setting name="configLocationType" value="CONFIG_FILE" />
-      <setting name="settingsFile" value="" />
-      <setting name="serverType" value="INTERNAL" />
-      <setting name="preferredDebugBrowser" value="Chrome" />
-      <method />
-    </configuration>
-    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" config-file="">
-      <envs />
+    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
+      <option name="VMOptions" />
+      <option name="arguments" />
+      <option name="filePath" />
+      <option name="scope" value="ALL" />
+      <option name="testName" />
       <method />
     </configuration>
     <configuration default="true" type="CucumberJavaScriptRunConfigurationType" factoryName="Cucumber.js">
       <option name="cucumberJsArguments" />
       <option name="executablePath" />
       <option name="filePath" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" config-file="">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JSTestDriver:ConfigurationType" factoryName="JsTestDriver">
+      <setting name="configLocationType" value="CONFIG_FILE" />
+      <setting name="settingsFile" value="" />
+      <setting name="serverType" value="INTERNAL" />
+      <setting name="preferredDebugBrowser" value="Chrome" />
       <method />
     </configuration>
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
@@ -444,13 +352,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="440" y="23" width="1000" height="790" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32871014" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.21220528" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -458,11 +366,11 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32871014" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -485,6 +393,55 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Express yourself with JS/call_apply_bind.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510">
+          <caret line="26" column="16" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Express yourself with JS/hoisting_functions.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="300" max-vertical-offset="405">
+          <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Express yourself with JS/life.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="420">
+          <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Express yourself with JS/clousures.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="150" max-vertical-offset="675">
+          <caret line="10" column="39" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jQueryProjectPractice1/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="360" max-vertical-offset="8175">
+          <caret line="24" column="7" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jQueryProjectPractice1/js/common.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="435" max-vertical-offset="1875">
+          <caret line="29" column="20" selection-start-line="29" selection-start-column="20" selection-end-line="29" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/d3_practice/simple_bar1/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="44" max-vertical-offset="690">
+          <caret line="17" column="26" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/html5canvas/html5.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-5.0" vertical-offset="0" max-vertical-offset="1590">
@@ -636,7 +593,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="390" max-vertical-offset="510">
           <caret line="26" column="16" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -644,7 +600,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="300" max-vertical-offset="405">
           <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -652,38 +607,155 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="420">
           <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Express yourself with JS/clousures.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.0" vertical-offset="6" max-vertical-offset="675">
+        <state vertical-scroll-proportion="0.0" vertical-offset="150" max-vertical-offset="675">
           <caret line="10" column="39" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="39" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/jQueryProjectPractice1/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-15.0" vertical-offset="0" max-vertical-offset="8175">
+        <state vertical-scroll-proportion="0.0" vertical-offset="360" max-vertical-offset="8175">
           <caret line="24" column="7" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jQueryProjectPractice1/js/common.js">
+    <entry file="file://$PROJECT_DIR$/d3_practice/simple_bar1/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="165" max-vertical-offset="1875">
-          <caret line="68" column="0" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
-          <folding />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
+          <caret line="6" column="1" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/jQueryProjectPractice1/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.30597016" vertical-offset="1655" max-vertical-offset="2325">
-          <caret line="124" column="5" selection-start-line="124" selection-start-column="5" selection-end-line="124" selection-end-column="5" />
+        <state vertical-scroll-proportion="0.38799077" vertical-offset="1632" max-vertical-offset="2325">
+          <caret line="120" column="0" selection-start-line="120" selection-start-column="0" selection-end-line="120" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jQueryProjectPractice1/js/common.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1875">
+          <caret line="29" column="20" selection-start-line="29" selection-start-column="20" selection-end-line="29" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/d3_practice/simple_bar1/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.625" vertical-offset="21" max-vertical-offset="690">
+          <caret line="12" column="14" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jQueryProgramming/3.2/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="670">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jQueryProgramming/3.2/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="670">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jQueryProgramming/3.2/exercise.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.44117647" vertical-offset="0" max-vertical-offset="646">
+          <caret line="19" column="52" selection-start-line="19" selection-start-column="52" selection-end-line="19" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jQueryProgramming/2.2/exercise.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.55727553" vertical-offset="0" max-vertical-offset="646">
+          <caret line="24" column="7" selection-start-line="0" selection-start-column="0" selection-end-line="24" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jQueryProgramming/2.2/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.15151516" vertical-offset="0" max-vertical-offset="693">
+          <caret line="7" column="38" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jQueryProgramming/2.2/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="670">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jQuery_Plugin_Practice/chaining_commands.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.38116592" vertical-offset="0" max-vertical-offset="669">
+          <caret line="17" column="28" selection-start-line="0" selection-start-column="0" selection-end-line="28" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jQuery_Plugin_Practice/css/style1.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="670">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jQuery_Plugin_Practice/formhighlighter.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.125" vertical-offset="0" max-vertical-offset="585">
+          <caret line="13" column="11" selection-start-line="0" selection-start-column="0" selection-end-line="33" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jQuery_Plugin_Practice/js/jquery-1.11.2.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="680">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jQuery_Plugin_Practice/js/formfieldhighlighter_plugin.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="693">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jQuery_Plugin_Practice/js/jquery.menu.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.28138527" vertical-offset="0" max-vertical-offset="693">
+          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jQuery_Plugin_Practice/css/menu.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.32467532" vertical-offset="0" max-vertical-offset="870">
+          <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jQuery_Plugin_Practice/menuplugin.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.49327356" vertical-offset="0" max-vertical-offset="669">
+          <caret line="22" column="36" selection-start-line="22" selection-start-column="36" selection-end-line="22" selection-end-column="36" />
           <folding />
         </state>
       </provider>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>The Simple Bar Chart</title>
+    <link rel="stylesheet" href="main.css" />
+    <script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+
+</head>
+<body>
+<svg id="chart"></svg>
+<script>
+    var w=800;
+    var h = 450;
+    var data = [132, 71, 337, 93, 78, 43, 20, 16, 30, 8, 17, 21];
+    var x = d3.scale.linear()
+            .domain([0,d3.max(data)])
+            .range([0,w]);
+    var y = d3.scale.linear()
+            .domain([0,data.length])
+            .range([0,h]);
+    var svg = d3.select("body").append("svg")
+            .attr("id", "chart")
+            .attr("width",w)
+            .attr("height",h);
+    svg.selectAll(".bar") //bind data
+            .data(data)
+            .enter()
+            .append("rect")
+            .attr("class","bar")
+            .attr("x",0)
+            .attr("y", function(d,i){
+                return i * 20;
+            })
+            .attr("width", function(d,i){
+                return d;
+            })
+            .attr("height",19)
+</script>
+</body>
+</html>
