@@ -2,6 +2,208 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d6eedbe0-df5f-407c-b487-ff6dab4e1b0b" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery_Designer/tooltips/images/bridge.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery_Designer/tooltips/images/downtown.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery_Designer/tooltips/images/icecream.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AngularJS_Practice/address_book/angular.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AngularJS_Practice/Angular Fundermental/app.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AngularJS_Practice/Angular_Egg/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AngularJS_Practice/address_book/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery_Designer/EnhancingTabs/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery_Designer/FQ/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery_Designer/dropdownmenu/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery_Designer/tooltips/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery_Designer/lib/jquery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery_Designer/tooltips/jquery.powertip.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery_Designer/lib/jquery.powertip.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery_Designer/lib/jquery.powertip.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery_Designer/FQ/main.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery_Designer/tooltips/main.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery_Designer/EnhancingTabs/main.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery_Designer/FQ/main.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery_Designer/tooltips/main.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AngularJS_Practice/address_book/scripts.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AngularJS_Practice/address_book/styles.css" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Express yourself with JS/assigning_with_booleans.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Express yourself with JS/break_and_continue.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Express yourself with JS/call_apply_bind.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Express yourself with JS/clousures.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Express yourself with JS/detecting_type.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Express yourself with JS/for_in_loops.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Express yourself with JS/hoisting_functions.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Express yourself with JS/iplicit coersion in javascript.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Express yourself with JS/lesson2.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Express yourself with JS/life.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Express yourself with JS/new.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Express yourself with JS/ternary.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Express yourself with JS/this.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Express yourself with JS/variable_scope.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Express yourself with JS/while_loops.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/html5_webapps/.bowerrc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/html5_webapps/.editorconfig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/html5_webapps/.gitattributes" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/html5_webapps/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/html5_webapps/.jshintrc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/html5_webapps/.yo-rc.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/html5_webapps/Gruntfile.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/html5_webapps/app/favicon.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/html5_webapps/app/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/html5_webapps/app/robots.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/html5_webapps/app/scripts/main.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/html5_webapps/app/styles/main.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/html5_webapps/bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/html5_webapps/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/html5_webapps/test/.bowerrc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/html5_webapps/test/bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/html5_webapps/test/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/html5_webapps/test/spec/test.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jQueryProgramming/2.2/exercise.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jQueryProgramming/2.2/main.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jQueryProgramming/3.2/exercise.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jQueryProgramming/3.2/main.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jQueryProgramming/jquery-1.11.2.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jQueryProjectPractice1/css/base.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jQueryProjectPractice1/css/common.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jQueryProjectPractice1/css/main.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jQueryProjectPractice1/css/reset.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jQueryProjectPractice1/css/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jQueryProjectPractice1/images/Thumbs.db" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jQueryProjectPractice1/images/address.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jQueryProjectPractice1/images/allmenu_btn_out.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jQueryProjectPractice1/images/allmenu_btn_over.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jQueryProjectPractice1/images/allmenu_close_btn.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jQueryProjectPractice1/images/allmenu_title_1.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jQueryProjectPractice1/images/allmenu_title_2.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jQueryProjectPractice1/images/allmenu_title_3.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jQueryProjectPractice1/images/allmenu_title_4.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jQueryProjectPractice1/images/banner_consult.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jQueryProjectPractice1/images/banner_support.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jQueryProjectPractice1/images/bestbook_bg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jQueryProjectPractice1/images/bestbook_btn_left.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jQueryProjectPractice1/images/bestbook_btn_right.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jQueryProjectPractice1/images/bestbook_list_1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jQueryProjectPractice1/images/bestbook_list_10.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jQueryProjectPractice1/images/bestbook_list_2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jQueryProjectPractice1/images/bestbook_list_3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jQueryProjectPractice1/images/bestbook_list_4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jQueryProjectPractice1/images/bestbook_list_5.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jQueryProjectPractice1/images/bestbook_list_6.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jQueryProjectPractice1/images/bestbook_list_7.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jQueryProjectPractice1/images/bestbook_list_8.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jQueryProjectPractice1/images/bestbook_list_9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jQueryProjectPractice1/images/bestbook_title.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jQueryProjectPractice1/images/bttom_menu_1.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jQueryProjectPractice1/images/bttom_menu_2.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jQueryProjectPractice1/images/bttom_menu_3.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jQueryProjectPractice1/images/bttom_menu_4.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jQueryProjectPractice1/images/bttom_menu_5.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jQueryProjectPractice1/images/bttom_menu_6.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jQueryProjectPractice1/images/facebook_img_1.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jQueryProjectPractice1/images/facebook_title.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jQueryProjectPractice1/images/footer_logo.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jQueryProjectPractice1/images/gnb_1_out.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jQueryProjectPractice1/images/gnb_1_over.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jQueryProjectPractice1/images/gnb_2_out.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jQueryProjectPractice1/images/gnb_2_over.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jQueryProjectPractice1/images/gnb_3_out.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jQueryProjectPractice1/images/gnb_3_over.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jQueryProjectPractice1/images/gnb_4_out.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jQueryProjectPractice1/images/gnb_4_over.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jQueryProjectPractice1/images/gnb_bg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jQueryProjectPractice1/images/header_sch_btn.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jQueryProjectPractice1/images/login_bg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jQueryProjectPractice1/images/login_btn.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jQueryProjectPractice1/images/login_bullet.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jQueryProjectPractice1/images/login_close_btn.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jQueryProjectPractice1/images/login_title_id.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jQueryProjectPractice1/images/login_title_pw.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jQueryProjectPractice1/images/logo.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jQueryProjectPractice1/images/main_bullet.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jQueryProjectPractice1/images/main_bullet.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jQueryProjectPractice1/images/maket_img_1.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jQueryProjectPractice1/images/maket_img_2.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jQueryProjectPractice1/images/maket_title.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jQueryProjectPractice1/images/online_banner_1.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jQueryProjectPractice1/images/online_banner_2.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jQueryProjectPractice1/images/online_banner_3.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jQueryProjectPractice1/images/online_banner_4.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jQueryProjectPractice1/images/online_banner_5.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jQueryProjectPractice1/images/online_banner_6.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jQueryProjectPractice1/images/online_title.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jQueryProjectPractice1/images/pop_banner_1.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jQueryProjectPractice1/images/pop_banner_2.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jQueryProjectPractice1/images/pop_banner_3.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jQueryProjectPractice1/images/pop_banner_4.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jQueryProjectPractice1/images/pop_btn_1_out.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jQueryProjectPractice1/images/pop_btn_1_over.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jQueryProjectPractice1/images/pop_btn_2_out.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jQueryProjectPractice1/images/pop_btn_2_over.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jQueryProjectPractice1/images/pop_btn_3_out.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jQueryProjectPractice1/images/pop_btn_3_over.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jQueryProjectPractice1/images/pop_btn_4_out.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jQueryProjectPractice1/images/pop_btn_4_over.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jQueryProjectPractice1/images/pop_btn_play_off.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jQueryProjectPractice1/images/pop_btn_play_on.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jQueryProjectPractice1/images/pop_btn_stop_off.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jQueryProjectPractice1/images/pop_btn_stop_on.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jQueryProjectPractice1/images/pop_title.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jQueryProjectPractice1/images/popup.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jQueryProjectPractice1/images/quick_list_1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jQueryProjectPractice1/images/quick_list_2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jQueryProjectPractice1/images/quick_list_3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jQueryProjectPractice1/images/quick_title.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jQueryProjectPractice1/images/quick_top_btn.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jQueryProjectPractice1/images/rel_site_btn.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jQueryProjectPractice1/images/rel_site_title.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jQueryProjectPractice1/images/sch_guide.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jQueryProjectPractice1/images/tab_btn_1_out.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jQueryProjectPractice1/images/tab_btn_1_over.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jQueryProjectPractice1/images/tab_btn_2_out.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jQueryProjectPractice1/images/tab_btn_2_over.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jQueryProjectPractice1/images/tab_btn_3_out.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jQueryProjectPractice1/images/tab_btn_3_over.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jQueryProjectPractice1/images/tab_line_bg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jQueryProjectPractice1/images/tab_more_btn.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jQueryProjectPractice1/images/total_bg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jQueryProjectPractice1/images/util_lang_eng.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jQueryProjectPractice1/images/util_menu_1.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jQueryProjectPractice1/images/util_menu_2.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jQueryProjectPractice1/images/util_menu_3.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jQueryProjectPractice1/images/util_menu_4.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jQueryProjectPractice1/images/util_menu_5.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jQueryProjectPractice1/images/util_print.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jQueryProjectPractice1/images/util_zoom_1.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jQueryProjectPractice1/images/util_zoom_2.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jQueryProjectPractice1/images/util_zoom_3.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jQueryProjectPractice1/images/util_zoom_4.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jQueryProjectPractice1/images/visual_btn_left.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jQueryProjectPractice1/images/visual_btn_right.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jQueryProjectPractice1/images/visual_bullet_off.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jQueryProjectPractice1/images/visual_bullet_on.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jQueryProjectPractice1/images/visual_img_1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jQueryProjectPractice1/images/visual_img_2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jQueryProjectPractice1/images/visual_img_3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jQueryProjectPractice1/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jQueryProjectPractice1/js/common.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jQueryProjectPractice1/js/jquery-1.10.2.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jQueryProjectPractice1/js/jquery-ui-1.10.4.custom.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jQueryProjectPractice1/js/jquery.bxslider.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jQueryProjectPractice1/js/jquery.cookie.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jQueryProjectPractice1/js/main.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jQueryProjectPractice1/js/swipe.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jQuery_Plugin_Practice/chaining_commands.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jQuery_Plugin_Practice/css/menu.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jQuery_Plugin_Practice/css/style1.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jQuery_Plugin_Practice/formhighlighter.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jQuery_Plugin_Practice/js/formfieldhighlighter_plugin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jQuery_Plugin_Practice/js/jquery-1.11.2.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jQuery_Plugin_Practice/js/jquery.menu.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jQuery_Plugin_Practice/menuplugin.html" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jQueryProgramming/2.2/style.css" afterPath="$PROJECT_DIR$/AngularJS_Practice/Angular Fundermental/index.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jQueryProgramming/3.2/style.css" afterPath="$PROJECT_DIR$/jQuery_Designer/EnhancingTabs/main.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/JavaScript.iml" afterPath="$PROJECT_DIR$/.idea/JavaScript.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/codeStyleSettings.xml" afterPath="$PROJECT_DIR$/.idea/codeStyleSettings.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="JavaScript.iws" />
@@ -24,7 +226,28 @@
     <favorites_list name="JavaScript" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/AngularJS_Practice/Angular Fundermental/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.32751092" vertical-offset="0" max-vertical-offset="687">
+              <caret line="15" column="6" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/AngularJS_Practice/Angular Fundermental/app.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="150" max-vertical-offset="255">
+              <caret line="10" column="3" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -37,29 +260,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/Do_it_Practice/jquery_event_2_test.html" />
-        <option value="$USER_HOME$/Downloads/MM_JAVASCRIPT/chapter06/6.2.html" />
-        <option value="$PROJECT_DIR$/Missing manual/event_6.1.html" />
-        <option value="$PROJECT_DIR$/Missing manual/ch7/7.2.html" />
-        <option value="$PROJECT_DIR$/Missing manual/ch7/7.3.html" />
-        <option value="$PROJECT_DIR$/Missing manual/ch7/7.4.html" />
-        <option value="$PROJECT_DIR$/html5canvas/cannon.html" />
-        <option value="$PROJECT_DIR$/test.js" />
-        <option value="$PROJECT_DIR$/Interactive web pages with js/index.html" />
-        <option value="$PROJECT_DIR$/Interactive web pages with js/css/style.css" />
-        <option value="$PROJECT_DIR$/Interactive web pages with js/app.js" />
-        <option value="$PROJECT_DIR$/Do_it_Practice/function_9_test.html" />
-        <option value="$PROJECT_DIR$/jQueryProjectPractice1/js/common.js" />
-        <option value="$PROJECT_DIR$/jQueryProjectPractice1/index.html" />
-        <option value="$PROJECT_DIR$/jQueryProjectPractice1/js/main.js" />
-        <option value="$PROJECT_DIR$/smellslikebakin/contact.html" />
-        <option value="$PROJECT_DIR$/BannerSlider/index.html" />
-        <option value="$PROJECT_DIR$/BannerSlider/banner_slider.css" />
-        <option value="$PROJECT_DIR$/BannerSlider/banner_slider.js" />
-        <option value="$PROJECT_DIR$/Javascript Essentals livelessons/lesson2.html" />
-        <option value="$PROJECT_DIR$/Javascript Essentals livelessons/variable_scope.html" />
-        <option value="$PROJECT_DIR$/Javascript Essentals livelessons/iplicit coersion in javascript.html" />
-        <option value="$PROJECT_DIR$/Express yourself with JS/detecting_type.html" />
         <option value="$PROJECT_DIR$/Express yourself with JS/ternary.html" />
         <option value="$PROJECT_DIR$/Express yourself with JS/assigning_with_booleans.html" />
         <option value="$PROJECT_DIR$/Express yourself with JS/while_loops.html" />
@@ -88,14 +288,37 @@
         <option value="$PROJECT_DIR$/jQuery_Plugin_Practice/css/menu.css" />
         <option value="$PROJECT_DIR$/jQuery_Plugin_Practice/menuplugin.html" />
         <option value="$PROJECT_DIR$/jQuery_Plugin_Practice/js/jquery.menu.js" />
+        <option value="$PROJECT_DIR$/AngularJS_Practice/address_book/index.html" />
+        <option value="$PROJECT_DIR$/AngularJS_Practice/address_book/scripts.js" />
+        <option value="$PROJECT_DIR$/AngularJS_Practice/settinguprig/my-server/app.js" />
+        <option value="$PROJECT_DIR$/AngularJS_Practice/settinguprig/my-server/package.json" />
+        <option value="$PROJECT_DIR$/AngularUIDev/bower_components/angular/bower.json" />
+        <option value="$PROJECT_DIR$/jQuery_Designer/EnhancingTabs/index.html" />
+        <option value="$PROJECT_DIR$/jQuery_Designer/EnhancingTabs/main.js" />
+        <option value="$PROJECT_DIR$/jQuery_Designer/EnhancingTabs/main.css" />
+        <option value="$PROJECT_DIR$/jQuery_Designer/tooltips/main.css" />
+        <option value="$PROJECT_DIR$/jQuery_Designer/tooltips/jquery.powertip.css" />
+        <option value="$PROJECT_DIR$/jQuery_Designer/tooltips/index.html" />
+        <option value="$PROJECT_DIR$/jQuery_Designer/tooltips/main.js" />
+        <option value="$PROJECT_DIR$/jQuery_Designer/FQ/main.css" />
+        <option value="$PROJECT_DIR$/jQuery_Designer/FQ/index.html" />
+        <option value="$PROJECT_DIR$/jQuery_Designer/FQ/main.js" />
+        <option value="$PROJECT_DIR$/jQuery_Designer/dropdownmenu/index.html" />
+        <option value="$PROJECT_DIR$/AngularResponsive/practice2/index.html" />
+        <option value="$PROJECT_DIR$/AngularUIDev/bower.json" />
+        <option value="$PROJECT_DIR$/AngularJS_Practice/Angular_Egg/script.js" />
+        <option value="$PROJECT_DIR$/AngularJS_Practice/Angular_Egg/app.js" />
+        <option value="$PROJECT_DIR$/AngularJS_Practice/Angular_Egg/index.html" />
+        <option value="$PROJECT_DIR$/AngularJS_Practice/Angular Fundermental/index.html" />
+        <option value="$PROJECT_DIR$/AngularJS_Practice/Angular Fundermental/app.js" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="440" />
+    <option name="x" value="591" />
     <option name="y" value="23" />
-    <option name="width" value="1000" />
-    <option name="height" value="790" />
+    <option name="width" value="848" />
+    <option name="height" value="821" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -123,7 +346,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -152,61 +374,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="jQuery_Plugin_Practice" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="JavaScript" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="JavaScript" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jQuery_Plugin_Practice" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="JavaScript" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="JavaScript" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jQuery_Plugin_Practice" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="JavaScript" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="JavaScript" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="d3_practice" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="simple_bar1" />
+              <option name="myItemId" value="AngularJS_Practice" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -223,9 +391,14 @@
               <option name="myItemId" value="AngularJS_Practice" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Angular Fundermental" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -234,8 +407,8 @@
     <property name="FullScreen" value="false" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
     <property name="restartRequiresConfirmation" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Missing manual" />
-    <property name="options.lastSelected" value="preferences.sourceCode.General" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Portfolio" />
+    <property name="options.lastSelected" value="reference.settingsdialog.IDE.editor.colors.HTML" />
     <property name="options.splitter.main.proportions" value="0.18943839" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
@@ -247,19 +420,14 @@
       <recent name="$PROJECT_DIR$/Do_it_Practice" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/jQueryFormField_Plugin" />
-      <recent name="$PROJECT_DIR$/jQueryProgramming" />
-      <recent name="$PROJECT_DIR$/BannerSlider/libs" />
-      <recent name="$PROJECT_DIR$/BannerSlider/images" />
-      <recent name="$PROJECT_DIR$/jQueryProjectPractice1/images" />
+      <recent name="$PROJECT_DIR$/AngularJS_Practice/Angular Fundermental" />
+      <recent name="$PROJECT_DIR$/AngularResponsive/practice2" />
+      <recent name="$PROJECT_DIR$/jQuery_Designer/tooltips/images" />
+      <recent name="$PROJECT_DIR$/jQuery_Designer/lib" />
+      <recent name="$PROJECT_DIR$/jQuery_Designer" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.life.html">
-    <configuration default="false" name="for_in_loops.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" uri="http://localhost:63342/JavaScript/Express yourself with JS/for_in_loops.html">
-      <RunnerSettings RunnerId="JavascriptDebugRunner" />
-      <ConfigurationWrapper RunnerId="JavascriptDebugRunner" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JavaScript Debug.index.html">
     <configuration default="false" name="this.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" uri="http://localhost:63342/JavaScript/Express yourself with JS/this.html">
       <RunnerSettings RunnerId="JavascriptDebugRunner" />
       <ConfigurationWrapper RunnerId="JavascriptDebugRunner" />
@@ -276,6 +444,11 @@
       <method />
     </configuration>
     <configuration default="false" name="life.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" uri="http://localhost:63342/JavaScript/Express yourself with JS/life.html">
+      <RunnerSettings RunnerId="JavascriptDebugRunner" />
+      <ConfigurationWrapper RunnerId="JavascriptDebugRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="index.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" uri="http://localhost:63342/JavaScript/AngularJS_Practice/Angular Fundermental/index.html">
       <RunnerSettings RunnerId="JavascriptDebugRunner" />
       <ConfigurationWrapper RunnerId="JavascriptDebugRunner" />
       <method />
@@ -322,19 +495,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.for_in_loops.html" />
-      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.this.html" />
-      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.new.html" />
-      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.call_apply_bind.html" />
-      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.life.html" />
+      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.this.html" />
+      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.new.html" />
+      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.call_apply_bind.html" />
+      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.life.html" />
+      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.life.html" />
-        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.call_apply_bind.html" />
-        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.new.html" />
-        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.this.html" />
-        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.for_in_loops.html" />
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
+        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.life.html" />
+        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.call_apply_bind.html" />
+        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.new.html" />
+        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.this.html" />
       </list>
     </recent_temporary>
   </component>
@@ -351,26 +524,26 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="440" y="23" width="1000" height="790" extended-state="0" />
+    <frame x="591" y="23" width="848" height="821" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32871014" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.21220528" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15683962" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.20345744" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32871014" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32871014" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32871014" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -393,255 +566,35 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Express yourself with JS/call_apply_bind.html">
+    <entry file="file://$PROJECT_DIR$/AngularJS_Practice/Angular Fundermental/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510">
-          <caret line="26" column="16" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="16" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="630">
+          <caret line="15" column="6" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Express yourself with JS/hoisting_functions.html">
+    <entry file="file://$PROJECT_DIR$/AngularJS_Practice/Angular Fundermental/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="300" max-vertical-offset="405">
-          <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="150" max-vertical-offset="255">
+          <caret line="10" column="3" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Express yourself with JS/life.html">
+    <entry file="file://$PROJECT_DIR$/AngularJS_Practice/Angular Fundermental/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="420">
-          <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="98" max-vertical-offset="630">
+          <caret line="25" column="8" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Express yourself with JS/clousures.html">
+    <entry file="file://$PROJECT_DIR$/AngularJS_Practice/Angular Fundermental/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="150" max-vertical-offset="675">
-          <caret line="10" column="39" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jQueryProjectPractice1/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="360" max-vertical-offset="8175">
-          <caret line="24" column="7" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jQueryProjectPractice1/js/common.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="435" max-vertical-offset="1875">
-          <caret line="29" column="20" selection-start-line="29" selection-start-column="20" selection-end-line="29" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/d3_practice/simple_bar1/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="44" max-vertical-offset="690">
-          <caret line="17" column="26" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html5canvas/html5.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.0" vertical-offset="0" max-vertical-offset="1590">
-          <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html5canvas/s.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.1338582" vertical-offset="1937" max-vertical-offset="2445">
-          <caret line="23" column="30" selection-start-line="23" selection-start-column="30" selection-end-line="23" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html5canvas/path.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5815739" vertical-offset="1227" max-vertical-offset="1755">
-          <caret line="102" column="13" selection-start-line="88" selection-start-column="7" selection-end-line="102" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html5canvas/la2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.74088293" vertical-offset="694" max-vertical-offset="1215">
-          <caret line="72" column="0" selection-start-line="72" selection-start-column="0" selection-end-line="74" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html5canvas/clock.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.10748561" vertical-offset="1219" max-vertical-offset="1740">
-          <caret line="85" column="84" selection-start-line="85" selection-start-column="23" selection-end-line="85" selection-end-column="84" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html5canvas/cannon.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.8681102" vertical-offset="7950" max-vertical-offset="9555">
-          <caret line="399" column="0" selection-start-line="399" selection-start-column="0" selection-end-line="399" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jQueryProjectPractice1/js/jquery-ui-1.10.4.custom.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="657">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jQueryProjectPractice1/js/jquery.bxslider.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="634">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jQueryProjectPractice1/js/jquery.cookie.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1005">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jQueryProjectPractice1/css/common.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.34632036" vertical-offset="240" max-vertical-offset="2265">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Express yourself with JS/ternary.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.125" vertical-offset="0" max-vertical-offset="255">
-          <caret line="5" column="44" selection-start-line="5" selection-start-column="44" selection-end-line="5" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Express yourself with JS/detecting_type.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-13.75" vertical-offset="0" max-vertical-offset="435">
-          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Express yourself with JS/lesson2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="750">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Express yourself with JS/variable_scope.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="517">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Express yourself with JS/assigning_with_booleans.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.625" vertical-offset="0" max-vertical-offset="315">
-          <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Express yourself with JS/while_loops.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.875" vertical-offset="0" max-vertical-offset="255">
-          <caret line="11" column="9" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Express yourself with JS/break_and_continue.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.31976745" vertical-offset="0" max-vertical-offset="516">
-          <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Express yourself with JS/iplicit coersion in javascript.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="517">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Express yourself with JS/new.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5813953" vertical-offset="0" max-vertical-offset="570">
-          <caret line="20" column="27" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Express yourself with JS/this.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.31976745" vertical-offset="0" max-vertical-offset="516">
-          <caret line="11" column="16" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Express yourself with JS/for_in_loops.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.31976745" vertical-offset="0" max-vertical-offset="516">
-          <caret line="11" column="9" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Express yourself with JS/call_apply_bind.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="390" max-vertical-offset="510">
-          <caret line="26" column="16" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Express yourself with JS/hoisting_functions.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="300" max-vertical-offset="405">
-          <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Express yourself with JS/life.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="420">
-          <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Express yourself with JS/clousures.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="150" max-vertical-offset="675">
-          <caret line="10" column="39" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jQueryProjectPractice1/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="360" max-vertical-offset="8175">
-          <caret line="24" column="7" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/d3_practice/simple_bar1/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
-          <caret line="6" column="1" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jQueryProjectPractice1/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.38799077" vertical-offset="1632" max-vertical-offset="2325">
-          <caret line="120" column="0" selection-start-line="120" selection-start-column="0" selection-end-line="120" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jQueryProjectPractice1/js/common.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1875">
-          <caret line="29" column="20" selection-start-line="29" selection-start-column="20" selection-end-line="29" selection-end-column="20" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="150" max-vertical-offset="255">
+          <caret line="10" column="3" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -652,110 +605,137 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jQueryProgramming/3.2/style.css">
+    <entry file="file://$PROJECT_DIR$/AngularJS_Practice/address_book/styles.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="670">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="810">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jQueryProgramming/3.2/main.js">
+    <entry file="file://$PROJECT_DIR$/AngularJS_Practice/address_book/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="670">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state vertical-scroll-proportion="-2.1" vertical-offset="120" max-vertical-offset="540">
+          <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jQueryProgramming/3.2/exercise.html">
+    <entry file="file://$PROJECT_DIR$/AngularJS_Practice/address_book/scripts.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.44117647" vertical-offset="0" max-vertical-offset="646">
-          <caret line="19" column="52" selection-start-line="19" selection-start-column="52" selection-end-line="19" selection-end-column="52" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="435">
+          <caret line="23" column="1" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jQueryProgramming/2.2/exercise.html">
+    <entry file="file://$PROJECT_DIR$/jQuery_Designer/EnhancingTabs/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.55727553" vertical-offset="0" max-vertical-offset="646">
-          <caret line="24" column="7" selection-start-line="0" selection-start-column="0" selection-end-line="24" selection-end-column="7" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="240">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jQueryProgramming/2.2/main.js">
+    <entry file="file://$PROJECT_DIR$/jQuery_Designer/EnhancingTabs/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.15151516" vertical-offset="0" max-vertical-offset="693">
-          <caret line="7" column="38" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="38" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="15" max-vertical-offset="1140">
+          <caret line="10" column="24" selection-start-line="0" selection-start-column="0" selection-end-line="70" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jQueryProgramming/2.2/style.css">
+    <entry file="file://$PROJECT_DIR$/jQuery_Designer/tooltips/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="670">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3585">
+          <caret line="233" column="0" selection-start-line="233" selection-start-column="0" selection-end-line="233" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jQuery_Plugin_Practice/chaining_commands.html">
+    <entry file="file://$PROJECT_DIR$/jQuery_Designer/tooltips/jquery.powertip.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.38116592" vertical-offset="0" max-vertical-offset="669">
-          <caret line="17" column="28" selection-start-line="0" selection-start-column="0" selection-end-line="28" selection-end-column="7" />
-          <folding />
+        <state vertical-scroll-proportion="0.0" vertical-offset="3692" max-vertical-offset="4125">
+          <caret line="251" column="28" selection-start-line="251" selection-start-column="28" selection-end-line="251" selection-end-column="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jQuery_Plugin_Practice/css/style1.css">
+    <entry file="file://$PROJECT_DIR$/jQuery_Designer/tooltips/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="670">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="375">
+          <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jQuery_Plugin_Practice/formhighlighter.html">
+    <entry file="file://$PROJECT_DIR$/jQuery_Designer/tooltips/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.125" vertical-offset="0" max-vertical-offset="585">
-          <caret line="13" column="11" selection-start-line="0" selection-start-column="0" selection-end-line="33" selection-end-column="7" />
-          <folding />
+        <state vertical-scroll-proportion="0.0" vertical-offset="975" max-vertical-offset="1260">
+          <caret line="65" column="21" selection-start-line="0" selection-start-column="0" selection-end-line="78" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jQuery_Plugin_Practice/js/jquery-1.11.2.min.js">
+    <entry file="file://$PROJECT_DIR$/jQuery_Designer/FQ/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="680">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="240">
+          <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jQuery_Plugin_Practice/js/formfieldhighlighter_plugin.js">
+    <entry file="file://$PROJECT_DIR$/jQuery_Designer/FQ/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="693">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        <state vertical-scroll-proportion="0.0" vertical-offset="2925" max-vertical-offset="3345">
+          <caret line="201" column="24" selection-start-line="201" selection-start-column="24" selection-end-line="201" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jQuery_Plugin_Practice/js/jquery.menu.js">
+    <entry file="file://$PROJECT_DIR$/jQuery_Designer/FQ/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.28138527" vertical-offset="0" max-vertical-offset="693">
-          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding />
+        <state vertical-scroll-proportion="0.0" vertical-offset="750" max-vertical-offset="930">
+          <caret line="50" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="56" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jQuery_Plugin_Practice/css/menu.css">
+    <entry file="file://$PROJECT_DIR$/jQuery_Designer/EnhancingTabs/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.32467532" vertical-offset="0" max-vertical-offset="870">
+        <state vertical-scroll-proportion="0.0" vertical-offset="2280" max-vertical-offset="3435">
+          <caret line="205" column="12" selection-start-line="205" selection-start-column="12" selection-end-line="205" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jQuery_Designer/dropdownmenu/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.5" vertical-offset="240" max-vertical-offset="1200">
+          <caret line="20" column="44" selection-start-line="20" selection-start-column="44" selection-end-line="20" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AngularJS_Practice/Angular Fundermental/styles/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.20309478" vertical-offset="0" max-vertical-offset="1965">
+          <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AngularJS_Practice/Angular_Egg/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.41666666" vertical-offset="0" max-vertical-offset="540">
           <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AngularJS_Practice/Angular_Egg/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.20874752" vertical-offset="0" max-vertical-offset="503">
+          <caret line="7" column="9" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AngularJS_Practice/Angular Fundermental/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="150" max-vertical-offset="255">
+          <caret line="10" column="3" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jQuery_Plugin_Practice/menuplugin.html">
+    <entry file="file://$PROJECT_DIR$/AngularJS_Practice/Angular Fundermental/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.49327356" vertical-offset="0" max-vertical-offset="669">
-          <caret line="22" column="36" selection-start-line="22" selection-start-column="36" selection-end-line="22" selection-end-column="36" />
+        <state vertical-scroll-proportion="0.32751092" vertical-offset="0" max-vertical-offset="687">
+          <caret line="15" column="6" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
           <folding />
         </state>
       </provider>

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Chapter 2: jQuery for Designers</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="jquery.powertip.css">
+</head>
+<body class="jsOff">
+
+<header class="content">
+    <h1>Pittsburgh, Pennsylvania</h1>
+    <p>City of Bridges, Steel City, City of Champions, The 'Burgh</p>
+</header>
+
+<nav>
+    <ul>
+        <li><a href="#pb-gallery" title="View photos of Pittsburgh">Photo Gallery</a></li>
+        <li><a href="#pb-about" title="Read about Pittsburgh">About</a></li>
+        <li><a href="#pb-geography" title="Learn about Pittsburg's geography">Geography</a> </li>
+        <li><a href="#pb-moreinfo" title="Get more info about Pittsburgh">More Information</a></li>
+    </ul>
+</nav>
+
+<div class="content">
+    <h2 id="pb-gallery">Photo Gallery</h2>
+    <ul class="gallery">
+        <li><img src="images/bridge.jpg" title="One of many bridges in Pittsburgh."></li>
+        <li><img src="images/downtown.jpg" title="Downtown Pittsburgh with bridge."></li>
+        <li><img src="images/icecream.jpg" title="A great way to beat the summer heat"></li>
+    </ul>
+
+    <h2 id="pb-about">About Pittsburgh</h2>
+    <p>Pittsburgh is the second-largest city in the US Commonwealth of Pennsylvania and the county seat of Allegheny County. <a href="#info-box-downtown" class="info-box" data-powertiptarget="info-box-downtown">Downtown Pittsburgh</a></p>
+    <h2 id="pb-moreinfo">More Information</h2>
+    <ul class="info-boxes">
+        <li id="info-box-bridge">
+            <div class="info-box-container">
+                <img src="images/bridge.jpg"/>
+                <div class="info-box-content">
+                    <p>One of many bridges in Pittsburgh</p>
+                </div>
+            </div>
+        </li>
+        <li id="info-box-downtown">
+            <div class="info-box-container">
+                <img src="images/downtown.jpg"/>
+                <div class="info-box-content">
+                    <p>Downtown<br/>Pittsburgh</p>
+                </div>
+            </div>
+        </li>
+        <li id="info-box-icecream">
+            <div class="info-box-container">
+                <img src="images/icecream.jpg"/>
+                <div class="info-box-content">
+                    <p>Ice cream beats the summer heat</p>
+                </div>
+            </div>
+        </li>
+    </ul>
+
+
+</div>
+
+<div class="sources">
+    <h3>Sources:</h3>
+    <ul class="source-list">
+        <li><a href="http://en.wikipedia.org/wiki/Pittsburgh">Wikipedia: Pittsburgh</a></li>
+        <li><a href="http://nataliemac.com">Photos by Natalie MacLees</a></li>
+    </ul>
+</div>
+
+<script src="../lib/jquery.js"></script>
+<script src="main.js"></script>
+<script src="../lib/jquery.powertip.min.js"></script>
+
+</body>
+</html>

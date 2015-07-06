@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Chapter 2: jQuery for Designers</title>
+    <link rel="stylesheet" href="main.css">
+
+</head>
+<body class="jsOff">
+
+<h1>Frequently Asked Questions</h1>
+<dl>
+    <dt>What is jQuery?</dt>
+    <dd>
+        <p>jQuery is an awesome JavaScript library</p>
+    </dd>
+
+    <dt>Why should I use jQuery?</dt>
+    <dd>
+        <p>Because it's awesome and it makes writing JavaScript faster and easier</p>
+    </dd>
+
+    <dt>Why would I want to hide the answers to my questions?</dt>
+    <dd>
+        <p>To make it easier to peruse the list of available questions - then you simply click to see the answer you're interested in reading.</p>
+    </dd>
+
+    <dt>What if my answers were a lot longer and more complicated than these examples?</dt>
+    <dd>
+        <p>The great thing about the &lt;dd&gt; element is that it's a block level element that can contain lots of other elements.</p>
+        <p>That means your answer could contain:</p>
+        <ul>
+            <li>Unordered</li>
+            <li>Lists</li>
+            <li>with lots</li>
+            <li>of items</li>
+            <li>(or ordered lists or even another definition list)</li>
+        </ul>
+        <p>Or it might contain text with lots of <strong>special</strong> <em>formatting</em>.</p>
+        <h2>Other things</h2>
+        <p>It can even contain headings. Your answers could take up an entire screen or more all on their own - it doesn't matter since the answer will be hidden until the user wants to see it.</p>
+    </dd>
+
+    <dt>What if a user doesn't have JavaScript enabled?</dt>
+    <dd>
+        <p>You have two options for users with JavaScript disabled - which you choose might depend on the content of your page.</p>
+        <p>You might just leave the page as it is - and make sure the &lt;dt&gt; tags are styled in a way that makes them stand out and easy to pick up when you're scanning down through the page. This would be a great solution if your answers are relatively short.</p>
+        <p>If your FAQ page has long answers, it might be helpful to put a table of contents list of links to individual questions at the top of the page so users can click it to jump directly to the question and answer they're interested in. This is similar to what we did in the tabbed example, but in this case, we'd use jQuery to hide the table of contents when the page loaded since users with JavaScript wouldn't need to see the table of contents.</p>
+    </dd>
+</dl>
+
+
+<script src="../lib/jquery.js"></script>
+<script src="main.js"></script>
+
+</body>
+</html>
