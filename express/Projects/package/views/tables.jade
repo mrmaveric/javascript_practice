@@ -1,0 +1,12 @@
+﻿extends layout
+
+block content
+  h1= title
+  p This is a list of all the tables in the Intacept back end services.
+
+  h2 Tables
+
+  each table, name in tables
+      a(href='/tables/#{name}'): h3= name
+      pre= JSON.stringify(table.attributes, null, ' ')
+

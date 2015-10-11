@@ -1,0 +1,19 @@
+﻿extends layout
+
+block content
+  h1= title
+  p This is a list of all records in the #{tableName} table.
+
+  h2= tableName
+
+  div
+  table
+    thead
+      tr
+      each type, name in attributes
+        th= name
+    tbody
+      each row in rows
+        tr
+          each type, name in attributes
+            td= row[name]
